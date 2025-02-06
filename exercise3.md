@@ -9,7 +9,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 1. Navigate back to the Microsoft Fabric tab on your browser.
 
-2. Click on **Workspaces** and select **ContosoSales@lab.LabInstance.Id**.
+2. Click on **Workspaces** and select **<inject key= "WorkspaceName" enableCopy="true"/>**.
 
 ![task-1.3.02.png](media/labMedia/task-1.3.02.png)
 
@@ -27,9 +27,9 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 ![task-new4.png](media/labMedia/task-new4.png)
 
-6. In the **Name** field, enter +++website_bounce_rate_model+++.
+6. In the **Name** field, enter ```website_bounce_rate_model```.
 
-7. Select workspace as **ContosoSales@lab.LabInstance.Id** and click on expand icon next to **dbo** checkbox.
+7. Select workspace as **<inject key= "WorkspaceName" enableCopy="true"/>** and click on expand icon next to **dbo** checkbox.
 
 ![task-new5.png](media/labMedia/task-new5.png)
 
@@ -87,7 +87,10 @@ You will now see how easy it is for the data analyst to create compelling Power 
 18. Select the option **What's in my data?**
 
 > **Note:** If you don't see the 'What's in my data?' option, click in the **Copilot chat box** field, enter the prompt below, and click the **Send** button: 
-+++What's in my data?+++
+
+```
+What's in my data?
+```
 
 ![promptguide2.png](media/labMedia/promptguide2.png)
 
@@ -97,7 +100,9 @@ The first option, 'What’s in my data?' provides an overview of the contents of
 
 19. Click on the Copilot chat box field and enter the prompt below.
 
-+++Create a report Bounce Rate analysis, to show the correlation between customer sentiment, particularly among millennials and Gen Z, unsuccessful product searches across different devices, and the website's bounce rate by customer generations.+++  
+```
+Create a report Bounce Rate analysis, to show the correlation between customer sentiment, particularly among millennials and Gen Z, unsuccessful product searches across different devices, and the website's bounce rate by customer generations.
+```  
 
 >**Note:** Wait for the prompt to populate.
 
@@ -116,11 +121,12 @@ Based on this report, we notice that the website bounce rate for Contoso is espe
 
 We’ll ask Copilot for suggestions based on the results and data in the report. 
 
-21. Enter the following prompt in Copilot, 
+21. Enter the following prompt in Copilot, and press the **Send** button.
 
-+++Based on the data in the page, what can be done to improve the bounce rate of millennials?+++ 
+```
+Based on the data in the page, what can be done to improve the bounce rate of millennials?
+```
 
-and press the **Send** button.
 	
 ![task-new13.png](media/labMedia/task-new13.png)
 	
@@ -141,7 +147,10 @@ and press the **Send** button.
 26. Click on **Update** and observe the generated summary. See how easy it was to get an executive summary with absolutely no IT resource dependency!
  
 >**Note:** If you don't see 'Give an executive summary' option, click on the **Copilot narrative** chat box field, enter the prompt below, and click on **Update** :
-+++Summarize the data, provide an executive summary, indicating important takeaways.+++
+
+```
+Summarize the data, provide an executive summary, indicating important takeaways.
+```
 
 ![task-new16.png](media/labMedia/task-new16.png)
 
