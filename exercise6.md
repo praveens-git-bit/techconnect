@@ -10,37 +10,38 @@ Litware had a lot of their marketing data in the Azure SQL DB, so Contoso used D
 
 2. Click on your workspace, and select **New item** from menu bar.
 
-![Task-6.1_1.png](media/labMedia/Task-6.1_1.png)
+   ![Task-6.1_1.png](media/labMedia/Task-6.1_1.png)
 
 3. In the **New item** window, search for **SQL** in the saecrh bar then select **Mirrored Azure SQL Database**.
 
-![Task-6.1_2.png](media/labMedia/Task-6.1_2.png)
+   ![Task-6.1_2.png](media/labMedia/Task-6.1_2.png)
 
 4. When prompted to **Choose a database connection to get started**, look for **New sources** and select **Azure SQL database**.
 
-![Task-6.1_3.png](media/labMedia/Task-6.1_3.png)
+   ![Task-6.1_3.png](media/labMedia/Task-6.1_3.png)
 
-5. In the **Server** field, paste +++mssql@lab.LabInstance.Id.database.windows.net+++ , In **Database** field paste ```SalesDb```.
+5. In the **Server** field, paste **<inject key= "mssqlServer" enableCopy="true"/>**
+  , In **Database** field paste ```SalesDb```.
 
-![task-1.3.16.png](media/labMedia/task-6.2.6.png)
+   ![task-1.3.16.png](media/labMedia/task-6.2.6.png)
 
-6.  Scroll down and select **Basic** for Authentication kind, enter +++labsqladmin+++ as the Username, +++Smoothie@2025+++ as the Password and click on the **Next** button.
+6.  Scroll down and select **Basic** for Authentication kind, enter **labsqladmin** as the **Username**, **Smoothie@2025** as the **Password** and click on the **Next** button.
 
-![task-1.3.16.png](media/labMedia/task-1.3.16.png)
+    ![task-1.3.16.png](media/labMedia/task-1.3.16.png)
 
->**Note:** Close any pop-up that you see throughout the lab.
+    >**Note:** Close any pop-up that you see throughout the lab.
 
 7. In the **Choose data** screen, you can select the tables to be mirrored into Fabric, then select the checkbox **Automatically mirror future tables** and click on **Connect** button.
 
-![Task-6.1_9.png](media/labMedia/Task-6.1_9.png)
+   ![Task-6.1_9.png](media/labMedia/Task-6.1_9.png)
 
 8. Enter the name for your mirrored db as **Mirrored_SalesDb1** and click on **Create mirrored database** button.
 
-![Task-6.1_9.1.png](media/labMedia/Task-6.1_9.1.png)
+   ![Task-6.1_9.1.png](media/labMedia/Task-6.1_9.1.png)
 
 9. Wait until the **Rows replicated** statistics are displayed. If not refresh the **Monitor replication** tab as shown in the below screen. Now, Azure SQL DB has been successfully mirrored.
 
-![Task-6.1_11.png](media/labMedia/f49.png)
+   ![Task-6.1_11.png](media/labMedia/f49.png)
 
 ---
 
@@ -52,25 +53,25 @@ This means Contoso’s marketing data from SQL database is accessed seamlessly i
 
 1. Continuing from the priously created Mirrored SQL DB window, select **SQL analytics endpoint** from top right dropdown box.
 
-![Task-6.2_1.png](media/labMedia/Task-6.2_1.png)
+   ![Task-6.2_1.png](media/labMedia/Task-6.2_1.png)
 
 2. Click on **Refresh** button, expand the **Schemas** and you can select the mirrored tables to see data preview. and then click on **New SQL query** button from the menu bar.
 
-![Task-6.2_2.png](media/labMedia/f48.png)
+    ![Task-6.2_2.png](media/labMedia/f48.png)
 
 3. Copy below **SQL query** in query editor to explore mirrored data and perform your analysis. 
 
-```
-Select distinct [ProductName] 
-from [Mirrored_SalesDb1].[dbo].[FactSales] as fct
-left join [Mirrored_SalesDb1].[dbo].[DimProduct] as prd
-on fct.[ProductKey]=prd.[ProductKey]
-where [SalesAmount] > 6000
-```
+    ```
+    Select distinct [ProductName] 
+    from [Mirrored_SalesDb1].[dbo].[FactSales] as fct
+    left join [Mirrored_SalesDb1].[dbo].[DimProduct] as prd
+    on fct.[ProductKey]=prd.[ProductKey]
+    where [SalesAmount] > 6000
+    ```
 
 4. Click on **Run**. 
 
-![Task-6.2_3.png](media/labMedia/f50.png)
+   ![Task-6.2_3.png](media/labMedia/f50.png)
 
 ---
 
