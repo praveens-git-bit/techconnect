@@ -27,9 +27,13 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 ![task-new4.png](media/labMedia/task-new4.png)
 
-6. In the **Name** field, enter ```website_bounce_rate_model```.
+6. In the **Name** field, enter **website_bounce_rate_model**.
 
-7. Select workspace as **<inject key= "WorkspaceName" enableCopy="true"/>** and click on expand icon next to **dbo** checkbox.
+   ```BASH
+   website_bounce_rate_model
+   ```
+
+8. Select workspace as **<inject key= "WorkspaceName" enableCopy="true"/>** and click on expand icon next to **dbo** checkbox.
 
 ![task-new5.png](media/labMedia/task-new5.png)
 
