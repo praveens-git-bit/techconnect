@@ -131,11 +131,11 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 ![task-1.3-ext-shortcut11.png](media/labMedia/task-1.3-ext-shortcut11.png)
 
-6. In the **URL** field enter the endpoint **<inject key= "storageEndpoint" enableCopy="true"/>**.
+6. 6.Copy the **Data Lake Storage endpoint**: **<inject key= "storageEndpoint" enableCopy="true"/>** and paste it into the **URL** field.
 
-7. In the **Authentication kind** dropdown, select **Account Key**.
+8. Select **Organization account** in the **Authentication Kind**, and then click on **Sign in**.
 
-8. In the **Account key** field enter +++@lab.Variable(storageaccountkey)+++
+9. In the **Account key** field enter +++@lab.Variable(storageaccountkey)+++
 
 >**Note:** Wait for the **Account Key** to populate. The cursor will start blinking.
 
