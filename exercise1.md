@@ -129,19 +129,15 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 5. In the screen below, we need to enter the connection details for the ADLS Gen2 shortcut.
 
-![task-1.3-ext-shortcut11.png](media/labMedia/task-1.3-ext-shortcut11.png)
+![shortcut111.png](media/labMedia/task-1.3-ext-shortcut-11.png)
 
 6. 6.Copy the **Data Lake Storage endpoint**: **<inject key= "storageEndpoint" enableCopy="true"/>** and paste it into the **URL** field.
 
 8. Select **Organization account** in the **Authentication Kind**, and then click on **Sign in**.
 
-9. In the **Account key** field enter +++@lab.Variable(storageaccountkey)+++
-
->**Note:** Wait for the **Account Key** to populate. The cursor will start blinking.
-
 9. Click on **Next** button.
 
-![task-1.3-ext-shortcut-9.png](media/labMedia/f40.png)
+![shortcut111.png](media/labMedia/task-1.3-ext-shortcut-111.png)
 
 9. Select the **data** and **litwaredata** checkbox and then click on the **Next** button.
 
@@ -339,7 +335,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
 ![](media/58.png)
 
-17. Expand the workspace **ContosoSales@lab.LabInstance.Id**, and select **lakehouse**.
+17. Expand the workspace **<inject key= "WorkspaceName" enableCopy="true"/>**, and select **lakehouse**.
 
 18. Enter the table name as **sales_data_updated** and then click on the **Next** button.
 
@@ -357,7 +353,7 @@ Congrats on completing this data transformation exercise!
 
 Now let's use Copilot in Data pipeline to leverage the data transformation activities.
 
-1. Click on the **ContosoSales@lab.LabInstance.Id** worspace at the **left** pane of the screen, then click on **New item** button.
+1. Click on the **<inject key= "WorkspaceName" enableCopy="true"/>** worspace at the **left** pane of the screen, then click on **New item** button.
 
 ![task_1.4.1.png](media/labMedia/task_1.4.1.png)
 
