@@ -135,19 +135,23 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 8. Select **Organization account** in the **Authentication Kind**, and then click on **Sign in**.
 
-9. Click on **Next** button.
-
 ![shortcut111.png](media/labMedia/task-1.3-ext-shortcut-111.png)
 
-9. Select the **data** and **litwaredata** checkbox and then click on the **Next** button.
+9. Click on your ID to complete the Sign in.
 
-![task-wb6.png](media/labMedia/task-wb6.png)
+   ![shortcut111.png](media/labMedia/task-1.3-signinpage.png)
 
-10. Click on the **Create** button.
+10. Click on **Next** button.
+
+11. Select the **data** and **litwaredata** checkbox and then click on the **Next** button.
+
+   ![task-wb6.png](media/labMedia/task-wb6.png)
+
+12. Click on the **Create** button.
 
 ![task-1.3-ext-shortcut10.png](media/labMedia/task-1.3-ext-shortcut10.png)
 
-11. And there you go! Your shortcut is now ready! Click (do not expand) on the newly created shortcut named **litwaredata**.
+13. And there you go! Your shortcut is now ready! Click (do not expand) on the newly created shortcut named **litwaredata**.
 
 ![task-wb7.png](media/labMedia/64.1.png)
 
@@ -182,7 +186,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
 6. Once the notebook is created, paste the **below code** in the cell and **run** the cell.
 
-```
+```BASH
 import os
 # List all CSV files in the 'litwaredata' folder
 file_path = '/lakehouse/default/Files/litwaredata/'
@@ -390,8 +394,10 @@ Destination connection of "copy0" (Copy) is lakehouse+++
 
 9. Enter the below prompt in the text box and click on **Send** icon.
 
-+++table of Source connection "lakehouse" (Lakehouse) in "copy0" (Copy) is data/CampaignData/campaign-data.csv;
-table of Destination connection "lakehouse" (Lakehouse) in "copy0" (Copy) is dbo.CampaignData+++
+```BASH
+Table of Source connection "lakehouse" (Lakehouse) in "copy0" (Copy) is data/CampaignData/campaign-data.csv;
+table of Destination connection "lakehouse" (Lakehouse) in "copy0" (Copy) is dbo.CampaignData
+```
 
 ![task_1.4.16.png](media/labMedia/task_1.4.16.png)
 
@@ -413,7 +419,7 @@ table of Destination connection "lakehouse" (Lakehouse) in "copy0" (Copy) is dbo
 
 14. Scroll up in the Copilot window to the top and select **Summarize this pipeline** option. The below text will be populated in the prompt text box.
 
-+++Summarize this pipeline+++
+### Summarize this pipeline
 
 11. Click on **Send** icon.
 
