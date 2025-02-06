@@ -16,7 +16,7 @@
     WHILE THIS LOADS.
 
 
-![](media/labMedia/task-1.3.png)
+   ![](media/labMedia/task-1.3.png)
 
 ### Task 1.1: Create a Microsoft Fabric enabled workspace
 
