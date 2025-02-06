@@ -1,10 +1,10 @@
 ### Exercise 1: Data Engineering/Data Factory experience - Data ingestion from a spectrum of analytical data sources into OneLake
 
-*Before we start executing the steps, we will open a backup Click-by-Click lab using the following hyperlink in a new tab and navigate back to the VM browser:* 
+   *Before we start executing the steps, we will open a backup Click-by-Click lab using the following hyperlink in a new tab and navigate back to the VM browser:* 
 
    [Click-by-Click](https://regale.cloud/Microsoft/viewer/3088/modern-analytics-with-microsoft-fabric-copilot-and-azure-databricks-dream-lab-fu/index.html#/0/0)
 
-*Now, let's trigger the Simulator App to start streaming data to EventHub (**to be used later in exercise 4**).*
+   *Now, let's trigger the Simulator App to start streaming data to EventHub (**to be used later in exercise 4**).*
 
 1. Open a **Microsoft Edge browser** from VM desktop.
 
