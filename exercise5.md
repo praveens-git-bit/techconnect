@@ -16,9 +16,13 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
     **Note:** Screenshots in the exercises may sometimes differ from the actual lab. Please adjust your screen resolution to locate items and select them as needed.
 
-2. Enter the name <inject key= "eventhubNamespace" enableCopy="true"/>
+2. Enter the name **Contoso-Eventhouse**
 
-3. Click on the **Create** button and wait for the database to be created.
+   ```BASH
+   Contoso-Eventhouse
+   ```
+
+4. Click on the **Create** button and wait for the database to be created.
 
    ![eventhouse2.png](media/labMedia/eventhouse2.png)
 
@@ -26,12 +30,12 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
    ![eventhouse16.png](media/labMedia/eventhouse16.png)
 
-4. Select **<inject key= "WorkspaceName" enableCopy="true"/>** workspace from the left navigation pane, click on **+New item**, then scroll down to the **Prepare data** section, and click on **Eventstream**.
+5. Select **<inject key= "WorkspaceName" enableCopy="true"/>** workspace from the left navigation pane, click on **+New item**, then scroll down to the **Prepare data** section, and click on **Eventstream**.
 
    ![eventhouse3.png](media/labMedia/f46.png)
 
 
-5. Enter the name as **RealtimeDataTo-KQL-DB** and click on the **Create** button.
+6. Enter the name as **RealtimeDataTo-KQL-DB** and click on the **Create** button.
 
     ```BASH
     RealtimeDataTo-KQL-DB
@@ -39,19 +43,19 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
    ![Eventst-name1.png](media/labMedia/f47.png)
 
-6. Click on the **Add external source** button. 
+7. Click on the **Add external source** button. 
 
    ![eventhouse12.png](media/labMedia/eventhouse12.png)
 
-7. Click on the **Connect** button for **Azure Event Hubs**.
+8. Click on the **Connect** button for **Azure Event Hubs**.
 
    ![task-5.2.1new1.0.4.png](media/labMedia/task-4.1.9.png)
 
-8. Under the Connection field, click on **New connection**.
+9. Under the Connection field, click on **New connection**.
 
    ![eventhouse13.png](media/labMedia/eventhouse13.png)
 
-9. Enter the value for the **Event Hub namespace** as <inject key= "eventhubNamespace" enableCopy="true"/> and enter the **Event Hub** value as thermostat.
+10. Enter the value for the **Event Hub namespace** as <inject key= "eventhubNamespace" enableCopy="true"/> and enter the **Event Hub** value as thermostat.
 
    ```BASH
    thermostat
