@@ -13,7 +13,7 @@ Copilot responds to queries in natural language or generates customized code sni
 Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly create Data Science Notebooks.
 
 
-1. Click on the **ContosoSales@lab.LabInstance.Id** workspace from the left navigation pane.
+1. Click on the **<inject key= "WorkspaceName" enableCopy="true"/>** workspace from the left navigation pane.
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.4.png)
 
@@ -25,7 +25,7 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.1.png)
 
-4. Browse to the fabricnotebooks folder in your VM  by following the path C:\LabFiles\02_lab\artifacts\fabricnotebooks, and then select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
+4. Browse to the fabricnotebooks folder in your VM  by following the path C:\LabFiles\techconnect\artifacts\fabricnotebooks, and then select **Build ML models and experiments using Copilot for Data Science in Fabric** notebook.
 
 5. Click on the **Open** button.
 
@@ -123,7 +123,7 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
 
 ### Task 4.2: Predict customer churn using New AutoML in Fabric
 
-1. Click on the **ContosoSales@lab.LabInstance.Id** workspace from the left navigation pane.
+1. Click on the **<inject key= "WorkspaceName" enableCopy="true"/>** workspace from the left navigation pane.
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.4.png)
 
@@ -131,7 +131,7 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
 
   ![task-3.1.2.png](media/labMedia/AutoMLf-19.png)
 
-3. Click on the notebook name at the top corner and enter +++Build ML models and experiments using AutoML+++ in the Notebook **Name** feild. 
+3. Click on the notebook name at the top corner and enter ```Build ML models and experiments using AutoML``` in the Notebook **Name** feild. 
 
  ![task-3.1.2.png](media/labMedia/AutoMLf-20.png)
 
@@ -224,7 +224,7 @@ AI Skill, a new capability in Fabric, allows Data Analysts like Serena to create
 In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage AI Skill to create conversational question-and-answer (Q&A) systems. 
 
 
-1. Click on the **ContosoSales@lab.LabInstance.Id** workspace from the left navigation pane.
+1. Click on the **<inject key= "WorkspaceName" enableCopy="true"/>** workspace from the left navigation pane.
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.4.png)
 
