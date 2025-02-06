@@ -81,15 +81,15 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
 16. Go back to the **Microsoft Fabric** and scroll down and select **Shared Access Key** for Authentication kind, enter the Shared Access Key Name as **thermostat** and then Enter the value copied in the earlier step for **Shared Access Key** and then click on the **Connect** button.
 
-```BASH
-thermostat
-```
+   ```BASH
+      thermostat
+   ```
 
-![eventhouse14.png](media/labMedia/eventhouse14.png)
+   ![eventhouse14.png](media/labMedia/eventhouse14.png)
 
-    >**Note:** Close any pop-up which appears on screen.
+   >**Note:** Close any pop-up which appears on screen.
 
-![pop-up3.png](media/labMedia/pop-up3.png)
+   ![pop-up3.png](media/labMedia/pop-up3.png)
 
 11. Select Data format as **JSON** and click on **Next** button.
 
