@@ -25,9 +25,8 @@ Litware had a lot of their marketing data in the Azure SQL DB, so Contoso used D
 6. In **Database** field paste **SalesDb**
 
    ```BASH
-   SalesDb
+      SalesDb
    ```.
-   
 ![task-1.3.16.png](media/labMedia/task-6.2.6.png)
 
 8.  Scroll down and select **Basic** for Authentication kind, enter **labsqladmin** as the **Username**, **Smoothie@2025** as the **Password** and click on the **Next** button.
