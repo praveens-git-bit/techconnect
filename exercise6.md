@@ -21,25 +21,42 @@ Litware had a lot of their marketing data in the Azure SQL DB, so Contoso used D
    ![Task-6.1_3.png](media/labMedia/Task-6.1_3.png)
 
 5. In the **Server** field, paste **<inject key= "mssqlServer" enableCopy="true"/>**
-  , In **Database** field paste ```SalesDb```.
 
+6. In **Database** field paste **SalesDb**
+
+   ```BASH
+   SalesDb
+   ```.
+   
    ![task-1.3.16.png](media/labMedia/task-6.2.6.png)
 
-6.  Scroll down and select **Basic** for Authentication kind, enter **labsqladmin** as the **Username**, **Smoothie@2025** as the **Password** and click on the **Next** button.
+8.  Scroll down and select **Basic** for Authentication kind, enter **labsqladmin** as the **Username**, **Smoothie@2025** as the **Password** and click on the **Next** button.
+
+   ```BASH
+      labsqladmin
+   ```
+
+   ```BASH
+      Smoothie@2025
+   ```
 
     ![task-1.3.16.png](media/labMedia/task-1.3.16.png)
 
     >**Note:** Close any pop-up that you see throughout the lab.
 
-7. In the **Choose data** screen, you can select the tables to be mirrored into Fabric, then select the checkbox **Automatically mirror future tables** and click on **Connect** button.
+9. In the **Choose data** screen, you can select the tables to be mirrored into Fabric, then select the checkbox **Automatically mirror future tables** and click on **Connect** button.
 
    ![Task-6.1_9.png](media/labMedia/Task-6.1_9.png)
 
-8. Enter the name for your mirrored db as **Mirrored_SalesDb1** and click on **Create mirrored database** button.
+10. Enter the name for your mirrored db as **Mirrored_SalesDb1** and click on **Create mirrored database** button.
+
+    ```BASH
+    Mirrored_SalesDb1
+    ```
 
    ![Task-6.1_9.1.png](media/labMedia/Task-6.1_9.1.png)
 
-9. Wait until the **Rows replicated** statistics are displayed. If not refresh the **Monitor replication** tab as shown in the below screen. Now, Azure SQL DB has been successfully mirrored.
+11. Wait until the **Rows replicated** statistics are displayed. If not refresh the **Monitor replication** tab as shown in the below screen. Now, Azure SQL DB has been successfully mirrored.
 
    ![Task-6.1_11.png](media/labMedia/f49.png)
 
@@ -57,6 +74,8 @@ This means Contoso’s marketing data from SQL database is accessed seamlessly i
 
 2. Click on **Refresh** button, expand the **Schemas** and you can select the mirrored tables to see data preview. and then click on **New SQL query** button from the menu bar.
 
+   >**Note:** If the tables are not visible, please wait for a couple of minutes and then click the **Refresh** button again.
+   
     ![Task-6.2_2.png](media/labMedia/f48.png)
 
 3. Copy below **SQL query** in query editor to explore mirrored data and perform your analysis. 
