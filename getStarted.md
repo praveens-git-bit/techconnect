@@ -69,12 +69,12 @@
 
 7. Now, on the **Azure Portal** Dashboard, click on Search bar to search and select the Resource Group as **rg-techconnect**.
    
-![Started.](GetStarted/Task11.png)
+![Started.](GetStarted/1.png)
 
 
 >**Note:** To ensure the **deployment is successful!** Verify that the **Resource Group** contains **8 resources**.
 
-![Started.](GetStarted/resourcegroup.png)
+![Started.](GetStarted/2.png)
 
 
 This concludes the setup. You are now all set to explore the features and functionalities. Proceed to the next exercises, keeping the **Resource Group** tab open, and move forward with the next steps. **Happy Labbing!**
