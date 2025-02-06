@@ -39,7 +39,8 @@ Litware had a lot of their marketing data in the Azure SQL DB, so Contoso used D
    ```BASH
       Smoothie@2025
    ```
- ![task-1.3.16.png](media/labMedia/task-1.3.16.png)
+
+![task-1.3.16.png](media/labMedia/task-1.3.16.png)
 
 >**Note:** Close any pop-up that you see throughout the lab.
 
