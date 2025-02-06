@@ -6,10 +6,17 @@ This exercise shows how Microsoft Fabric with Databricks enabled Contoso to solv
 
 Delta Live Tables (DLT) allow you to build and manage reliable data pipelines that deliver high-quality data in Lakehouse. DLT helps data engineering teams simplify ETL development and management with declarative pipeline development, automatic data testing, and deep visibility for monitoring and recovery.
 
-1. Open a new tab in your browser and sign in to the Azure Databricks Workspace by clicking on
-+++https://@lab.Variable(workspaceurl)+++ and press **ENTER**.
+1. Go back to the browser tab of Resource Group .
 
-2. Click on the **Sign in with Microsoft Entra ID**.
+Search for the Azure Databricks in the Resource group search field and click on **adb-techconnect....**.
+
+![databrickssignin.png](media/labMedia/databrickssearch.png)
+
+2. Click on the **Launch Workspace**.
+
+    ![databrickssignin.png](media/labMedia/launchdatabricks.png)
+
+**Note:** Click on the **Sign in with Microsoft Entra ID**.
 
 ![databrickssignin.png](media/labMedia/databrickssignin.png)
 
@@ -21,7 +28,11 @@ Delta Live Tables (DLT) allow you to build and manage reliable data pipelines th
 
 ![task-2.2.3.1new.png](media/labMedia/task-2.2.3.1new.png)
 
-5. Enter the name of the pipeline as +++DLT_Pipeline+++ , scroll down to **Paths** and click on the **file icon** to browse the notebook.
+5. Enter the name of the pipeline as **DLT_Pipeline** , scroll down to **Paths** and click on the **file icon** to browse the notebook.
+
+```BASH
+DLT_Pipeline
+```
 
 ![task-2.2.3new.png](media/labMedia/task-2.2.3new.png)
 
@@ -69,7 +80,7 @@ Mirroring the Azure Databricks Catalog structure in Fabric allows seamless acces
 
 1. Navigate back to the Microsoft Fabric tab on your browser (https://app.fabric.microsoft.com).
 
-2. Click on the **ContosoSales@lab.LabInstance.Id** and select **New item** from menu bar.
+2. Click on the **<inject key= "WorkspaceName" enableCopy="true"/>** and select **New item** from menu bar.
 
 ![Task-2.3_1.png](media/labMedia/Task-2.3_1.png)
 
@@ -81,13 +92,13 @@ Mirroring the Azure Databricks Catalog structure in Fabric allows seamless acces
 
 ![Task-2.3_3.png](media/labMedia/Task-2.3_3.png)
 
-5. In the URL field enter **https://adb-<MirroredworkspaceID>.azuredatabricks.net**
+5. In the URL field enter **<inject key= "databricksurl" enableCopy="true"/>**
 
 6. Now, select **Service principal** from 'Authentication kind' dropdown box, and enter the following details.
 
-- Tenant ID: ```MirroredTenantID```
-- Service principal client ID: ```MirroredSPclientID```
-- Service principal Key: ```MirroredSPkey```
+- Tenant ID: **<inject key= "TenantID" enableCopy="true"/>**
+- Service principal client ID: **<inject key= "ClientID" enableCopy="true"/>**
+- Service principal Key: **<inject key= "Secret" enableCopy="true"/>**
 
 7. click on the **Connect** button.
 
