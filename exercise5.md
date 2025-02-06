@@ -170,35 +170,41 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
 2. In the KQL Queryset name field, type **Query Thermostat Data in Near Real-time using KQL Script** and click on the **Create** button.
 
+   ```BASH
+   Query Thermostat Data in Near Real-time using KQL Script
+   ```
+
    ![task-5.3.3.png](media/labMedia/task-5.3.3.png)
 
-3. **Wait** for the query set creation and a new screen will display. In this screen, click on **Contoso-Eventhouse**, verify the workspace name and then click on the **Connect** button.
+4. **Wait** for the query set creation and a new screen will display. In this screen, click on **Contoso-Eventhouse**, verify the workspace name and then click on the **Connect** button.
 
    ![eventhouse10.png](media/labMedia/eventhouse10.png)
 
-4. Place your cursor inside the **query** field, select all using **Ctrl + A** and **delete** the pre-written query.
+5. Place your cursor inside the **query** field, select all using **Ctrl + A** and **delete** the pre-written query.
 
    ![task-5.3.5.png](media/labMedia/task-5.3.5.png)
 
-5. Click on the **Copilot** button.
+6. Click on the **Copilot** button.
 
    ![eventhouse11.png](media/labMedia/eventhouse11.png)
 
-6. **Paste** the query provided below in the Copilot query section.
+7. **Paste** the query provided below in the Copilot query section.
 
-    ```Create a query to summarize average temperature every 1 min in line chart```
+    ```BASH
+      Create a query to summarize average temperature every 1 min in line chart
+    ```
 
-7. Click on the **Send** icon.
+9. Click on the **Send** icon.
 
     >**Note:** If you receive a response from Copilot such as "I am not sure" please ask the question again.
 
     >**Note:** The responses from Copilot may not match the ones in the screenshot but will provide a similar response. 
 
-8. Click on the **Insert** button.
+10. Click on the **Insert** button.
 
     ![kqlqueyset1.png](media/labMedia/kqlqueyset1.png)
 
-9. Place your cursor in the **script field**, click on the **Run** button and you get the desired result.
+11. Place your cursor in the **script field**, click on the **Run** button and you get the desired result.
 
     ![task-5.3.8.png](media/labMedia/task-5.3.8.png)
 
