@@ -12,11 +12,12 @@
 
    >**Note**: **Do not click anywhere else on the screen until all of the text has been auto-filled.**
 
-3. **IMPORTANT!! PROCEED WITH THE NEXT STEPS WHILE THIS LOADS.**
+3. **IMPORTANT!!** PROCEED WITH THE NEXT STEPS WHILE THIS LOADS.
 
 
-![](media/labMedia/task-1.3.png)
+    ![](media/labMedia/task-1.3.png)
 
+    ![](media/labMedia/task-1.3.png)
 
 ### Task 1.1: Create a Microsoft Fabric enabled workspace
 
