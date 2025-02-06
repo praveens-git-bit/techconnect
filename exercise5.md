@@ -59,13 +59,37 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
    ![task-5.2.5-2.png](media/labMedia/task-5.2.5-2.png)
 
-10. Scroll down and select **Shared Access Key** for Authentication kind, enter the Shared Access Key Name as **thermostat** , then Enter the value **+++@lab.Variable(EventHubKey)+++** in the **Shared Access Key** and then click on the **Connect** button.
+12. Navigate back to the Resource Group <inject key="resourcegroup" enableCopy="false"/> in the Azure Portal, and search for **Event Hubs Namespace** and click on **<inject key="eventhubNamespace" enableCopy="false"/>**.
 
-    ![eventhouse14.png](media/labMedia/eventhouse14.png)
+![eventhubnamespace](media/eventhubsearchfield.png)
+
+13. Scroll down in the left navigation pane and click on **Event Hubs** under the **Entities** section.
+
+>**Note:** If the **left navigation** bar is collapsed, click on the **hamburger icon** at the top to expand it.
+
+ ![eventhubnamespace](media/listeventhubs.png)
+
+14. Click on the **thermostat event hub**.
+
+ ![eventhubnamespace](media/thermostat.png)
+
+15. Click on **Shared access policies** in the left pane under Settings, then click on **thermostat** and finally copy the **primary key** and paste it in a notepad for further use.
+
+>**Note:** Expand the **settings** option if the left navigations are collapsed.
+
+ ![eventhubnamespace](media/thermostatkey.png)
+
+16. Go back to the **Microsoft Fabric** and scroll down and select **Shared Access Key** for Authentication kind, enter the Shared Access Key Name as **thermostat** and then Enter the value copied in the earlier step for **Shared Access Key** and then click on the **Connect** button.
+
+```BASH
+thermostat
+```
+
+![eventhouse14.png](media/labMedia/eventhouse14.png)
 
     >**Note:** Close any pop-up which appears on screen.
 
-    ![pop-up3.png](media/labMedia/pop-up3.png)
+![pop-up3.png](media/labMedia/pop-up3.png)
 
 11. Select Data format as **JSON** and click on **Next** button.
 
