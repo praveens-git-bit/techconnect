@@ -168,7 +168,7 @@ Prior to Microsoft Fabric, departments in Contoso had to move the data they need
 
 Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangler and got the remaining data into OneLake by creating Delta tables using Spark Notebook. By using a Spark Notebook to create Delta tables, Eva can ensure more reliable, scalable, and efficient data management, which is essential for handling big data workflows.
 
-1. Click on **Workspace** and select **New item**.
+1. Click on **<inject key= "WorkspaceName" enableCopy="false"/>** and select **New item**.
 
    ![task-wb8S.png](media/labMedia/64.2.png)
 
@@ -176,15 +176,15 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
    ![task-wb8S.png](media/labMedia/64.3.png)
 
-   >**Note:**  If the Pop-up appears click on **Skip tour**
+   >**Note:**  If the Pop-up appears click on **Skip tour** button.
 
    ![task-wb8S.png](media/labMedia/64.4.png)
 
-3. Click on the **+ Data Sources** button and then select **Lakehouses**
+3. Click on the **+ Data Sources** button and then select **Lakehouses**.
 
    ![task-wb8S.png](media/labMedia/64.5.png)
 
-4. Select **Existing Lakehouse with Schema** and then click on ***Add***.
+4. Select **Existing Lakehouse with Schema** and then click on the **Add** button.
 
     ![task-wb8S.png](media/labMedia/64.6.1.png)
 
@@ -250,7 +250,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
     ![task-wb8S.png](media/labMedia/64.8.png)
 
-11. Once the execution is successful, **stop the Spark session** and click on **Lakehouse**.
+11. Once the execution is successful, **stop the Spark session** and click on **Lakehouse** in the left navigation pane..
 
     ![task-wb8S.png](media/labMedia/f64.png)
 
@@ -273,7 +273,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
 ### Task 1.4: Leverage Dataflow Gen2 and Data pipelines for a "No Code-Low Code" experience to quickly ingest data with Fast Copy and transform it using Copilot
 
-Using another great feature in Fabric’s Data Factory, called Fast Copy, Contoso’s Data Engineer, Eva, quickly ingests terabytes of data with dataflows, thanks to the scalable Copy Activity in the pipeline. With so much data from Litware, there is bound to be a lot of clean up needed. Let’s step into Eva’s shoes to explore how she used fast copy to ingest data and Copilot to transform it, just in time to derive meaningful customer insights before their big Thanksgiving Sale!
+Using another great feature in Microsoft Fabric’s Data Factory, called Fast Copy, Contoso’s Data Engineer, Eva, quickly ingests terabytes of data with dataflows, thanks to the scalable Copy Activity in the pipeline. With so much data from Litware, there is bound to be a lot of clean up needed. Let’s step into Eva’s shoes to explore how she used fast copy to ingest data and Copilot to transform it, just in time to derive meaningful customer insights before their big Thanksgiving Sale!
 
 You will experience how easy it is to use Fast Copy to transform 100M rows of Litware's sales data into the Lakehouse.
 
@@ -284,7 +284,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
     
 
-2. If prompted, uncheck **Enable Git integration, deployment pipelines and public API scenarios (preview)** box, click on **create** or proceed to **step3**.
+2. If prompted, uncheck **Enable Git integration, deployment pipelines and public API scenarios (preview)** box, click on **create** or proceed to **step 3**.
 
     ![task-1.3.1.png](media/labMedia/f41.png)    
 
@@ -385,7 +385,7 @@ Congrats on completing this data transformation exercise!
 
 Now let's use Copilot in Data pipeline to leverage the data transformation activities.
 
-1. Click on the **<inject key= "WorkspaceName" enableCopy="true"/>** worspace at the **left** pane of the screen, then click on **New item** button.
+1. Click on the **<inject key= "WorkspaceName" enableCopy="true"/>** worspace at the **left** pane of the screen, then click on the **New item** button.
 
    ![task_1.4.1.png](media/labMedia/task_1.4.1.png)
 
@@ -393,7 +393,7 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
    ![task_1.4.10.png](media/labMedia/task_1.4.10.png)
 
-3. Enter the name **pipeline** for the pipeline and click on **Create**.
+3. Enter the name **pipeline** in the Name field and click on **Create** button.
 
    ![task_1.4.11.png](media/labMedia/task_1.4.11.png)
 
@@ -413,7 +413,7 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
    ![task_1.4.14.png](media/labMedia/task_1.4.14.png)
 
-8. Enter the below prompt in the text box and click on **Send** icon.
+8. Enter the **below prompt** in the text box and click on **Send** icon.
 
    ```Source connection of "copy0" (Copy) is lakehouse;
    Destination connection of "copy0" (Copy) is lakehouse
@@ -438,11 +438,11 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
     ![task_1.4.18.png](media/labMedia/task_1.4.18.png)
 
-12. Click on **Save and run**.
+12. Click on the **Save and run** button.
 
     ![task_1.4.19.png](media/labMedia/task_1.4.19.png)
 
-13. Wait for the pipeline run to complete successfully.
+13. **Wait** for the pipeline run to complete successfully.
 
     ![task_1.4.20.png](media/labMedia/f42.png)
 
