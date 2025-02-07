@@ -33,20 +33,20 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
  - Task 1.3: Leverage Data Wrangler to profile and analyze data effectively & Create Delta tables using Spark Notebook
  - Task 1.4: Leverage Copilot in Dataflow Gen2 and Pipelines for No Code-Low Code Data Ingestion and Transformation with Fast Copy
 
-## Exercise 2: Azure Databricks integration with Fabric: DLT Pipelines, Unity Catalog (Data governance), and Mirrored Azure Databricks Catalog
+## Exercise 2: Azure Databricks integration with Microsoft Fabric: DLT Pipelines, Unity Catalog (Data governance), and Mirrored Azure Databricks Catalog
 
  - Task 2.1: Create Delta Live Table pipeline for Data Transformation
  - Task 2.2:  Explore the data in the Azure Databricks environment with Unity Catalog (Unified Governance Solution for Data and AI) 'Click-by-Click'
- - Task 2.3: Create a Mirrored Azure Databricks Catalog in Fabric and analyze data using T-SQL
+ - Task 2.3: Create a Mirrored Azure Databricks Catalog in Microsoft Fabric and analyze data using T-SQL
 
-## Exercise 3: Power BI Experience in Fabric
+## Exercise 3: Power BI Experience in Microsoft Fabric
  
 - Task 3.1: Create a Semantic model and generate insights using Copilot for Power BI
 
 ## Exercise 4: Explorer Data Science experience in Microsoft Fabric 
  
-- Task 4.1: Build ML models and experiments using Copilot in Fabric
-- Task 4.2: Predict customer churn using New AutoML in Fabric
+- Task 4.1: Build ML models and experiments using Copilot in Microsoft Fabric
+- Task 4.2: Predict customer churn using New AutoML in Microsoft Fabric
 - Task 4.3: Leverage AI skills for Q&A
 
 ## Exercise 5: Real-Time Intelligence experience - Explore Streaming data using Copilot for KQL DB (Optional)
@@ -55,13 +55,13 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
 - Task 5.2: Analyze/discover patterns, identify anomalies and outliers using Copilot
 
 ## Exercise 6: Data Warehouse experience (Optional)
-- Task 6.1: Create Mirrored Azure SQL DB in Fabric
+- Task 6.1: Create Mirrored Azure SQL DB in Microsoft Fabric
 - Task 6.2: Analyze the Mirrored Azure SQL Database data using T-SQL
 
 ## Overview
 ![buildarch.png](GetStarted/ignite_architecture_diagram.png)
 
-This lab showcases Microsoft Fabric with Copilot and Azure Databricks, featuring a cost-effective, performance-optimized, and cloud-native Analytics solution pattern. This architecture unifies our customers' data estate to accelerate data value creation. 
+This lab showcases Microsoft Fabric with Copilot and Azure Databricks, featuring a cost-effective, performance-optimized, and Cloud-native analytics solution pattern. This architecture unifies our customers' data estate to accelerate data value creation.
  
 The visual illustrates the real-world example for Contoso, a fictitious company. 
 
@@ -85,7 +85,9 @@ The lab scenario begins on January 30th. The new CEO, April, has noticed some ne
 
 To address the high customer churn, April and the Contoso team decided to acquire Litware Inc., which carries products popular with millennials. April asks Rupesh, the Chief Data Officer, how they could create a data-driven organization and reverse these adverse KPI trends. Rupesh talks to his technical team, including Eva, the data engineer; Miguel, the data scientist; and Wendy, the business analyst. He tasks them with designing and implementing a solution pattern to realize this vision of a data-driven organization. 
 
-The team recognizes that the existence of data silos within Contoso's various departments presents a significant integration challenge, which is intensified by the need to combine subsidiary data with data from Litware Inc. To overcome these challenges, they plan to utilize Fast Copy for efficient data ingestion, Task Flow for streamlined workflows, Real-time Intelligence for immediate insights, and Azure SQL DB Mirroring in Fabric to ensure seamless access to relational data across the organization.
+The team recognizes that the existence of data silos within Contoso's various departments presents a significant integration challenge, which is intensified by the need to combine subsidiary data with data from Litware Inc. To overcome these challenges, they plan to utilize Fast Copy for efficient data ingestion, Task Flow for streamlined workflows, Real-time Intelligence for immediate insights, and Azure SQL DB Mirroring in Microsoft Fabric to ensure seamless access to relational data across the organization.
 
 During this lab you will execute some of these steps as a part of this team to reverse these adverse KPI trends. First, you will ingest data from a spectrum of data sources into OneLake for Contoso. Let's get started.
+
+**Note:** Screenshots in the exercises may sometimes differ from the actual lab. Please adjust your screen resolution to locate items and select them as needed.
  
