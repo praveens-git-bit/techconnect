@@ -160,13 +160,13 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 11. Click on the **Create** button.
 
-    ![task-1.3-ext-shortcut10.png](media/labMedia/task-1.3-ext-shortcut10.png)
+      ![task-1.3-ext-shortcut10.png](media/labMedia/task-1.3-ext-shortcut10.png)
 
-    And there you go! Your shortcut is now ready! 
+      And there you go! Your shortcut is now ready! 
 
 12. Click (do not expand) on the newly created shortcut named **litwaredata**.
 
-    ![task-wb7.png](media/labMedia/64.1.png)
+      ![task-wb7.png](media/labMedia/64.1.png)
 
 Prior to Microsoft Fabric, departments in Contoso had to move the data they needed from other departments via time-consuming ETL processes. But look, now they have created shortcuts. No need to move any of this data. That is the power of OneLake!
 
