@@ -77,6 +77,7 @@ In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's 
 ### Create/Build a Lakehouse
 
 Now, let's see how each department can easily create a Lakehouse in the Contoso workspace without any provision. They simply provide a name, given the proper access rights of course!
+<!--
 
 1. Click on the **experience** button at the **bottom left** corner of the screen (In this screenshot, **Power BI** is selected as an "Experience") and then Select **Fabric**.
 
@@ -84,26 +85,26 @@ Now, let's see how each department can easily create a Lakehouse in the Contoso 
 
    >**Note:** Close any pop-up that appears on the screen.
 
-   ![](media/image%20(5).png)
+   ![](media/image%20(5).png) -->
 
-2. Click on the **three dots (ellipsis)** below the workspace.
+1. Click on the **three dots (ellipsis)** below the workspace.
 
     ![](media/labMedia/f2.png)
     
 
-3. In the new window, under Data Engineering, click **Lakehouse**.
+2. In the new window, under Data Engineering, click **Lakehouse**.
 
    ![task-wb2.png](media/labMedia/f3.png)
 
    **Note:** Screenshots in the exercises may sometimes differ from the actual lab. Please adjust your screen resolution to locate items and select them as needed.
 
-4. Copy the name **lakehouse** from the following and paste it in the **Name** field.
+3. Copy the name **lakehouse** from the following and paste it in the **Name** field.
 
    ```BASH
    lakehouse
    ```
 
-5. Click on the **checkbox** and then click on the **Create** button.
+4. Click on the **checkbox** and then click on the **Create** button.
 
    ![task-1.2.3.png](media/labMedia/task-1.2.3.png)
 
