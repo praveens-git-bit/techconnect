@@ -1,5 +1,5 @@
 
-### Exercise 3: Power BI Experience in Fabric
+### Exercise 3: Power BI Experience in Microsoft Fabric
 
 With the wide spectrum of data sources and Litware's data in OneLake, it is now time to get some awesome insights and visualizations from this data. Let's dive deep into the experience of the Business Analyst, Wendy, and do just that.
  
@@ -7,7 +7,7 @@ With the wide spectrum of data sources and Litware's data in OneLake, it is now 
 
 Based on all the gathered data, Wendy is expected to create Power BI reports for other data citizens and stakeholders. Let's step into her shoes to experience the power of Copilot for Power BI in conjunction with Direct Lake Mode.
 
-1. Navigate back to the Microsoft Fabric tab on your browser.
+1. Navigate back to the **Microsoft Fabric tab** on your browser.
 
 2. Click on **Workspaces** and select **<inject key= "WorkspaceName" enableCopy="true"/>**.
 
@@ -27,17 +27,17 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 ![task-new4.png](media/labMedia/task-new4.png)
 
-6. In the **Name** field, enter **website_bounce_rate_model**.
+6. In the **Direct Lake semantic model name** field, enter **website_bounce_rate_model**.
 
    ```BASH
    website_bounce_rate_model
    ```
 
-8. Select workspace as **<inject key= "WorkspaceName" enableCopy="true"/>** and click on expand icon next to **dbo** checkbox.
+8. Select workspace as **<inject key= "WorkspaceName" enableCopy="true"/>** and click on **expand icon** next to **dbo** checkbox.
 
    ![task-new5.png](media/labMedia/task-new5.png)
 
-8. Click on expand icon next to **Tables** checkbox.
+8. Click on **expand icon** next to **Tables** checkbox.
 
    ![task-new5.1.png](media/labMedia/task-new5.1.png)
 
@@ -47,13 +47,13 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
    >Wait for the semantic model creation.
 
-10. Click on the **workspace** from the left navigation menu, click on **Filter** and under **type** select **Semantic model.**
+10. Click on the **<inject key= "WorkspaceName" enableCopy="true"/>** from the left navigation menu, click on **Filter** and under **Type** select **Semantic model.**
 
 11. Click on **website_bounce_rate_model** semantic model.
 
     ![task-new6.png](media/labMedia/f56.png)
 
-12. To create a new report using this semantic model, Click on **Three dots ...** and click on **create report**.
+12. To create a new report using this semantic model, Click on **three dots ...** and click on **Create report**.
 
     ![task-new7.png](media/labMedia/f58.png)
 
@@ -76,7 +76,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
     ![task-new6.3.png](media/labMedia/qna1.png)
 
-15. Click on the **Copilot** icon and collapse the other panes named Filters, Visualizations and Data.
+15. Click on the **Copilot** icon and collapse the other panes named **Filters**, **Visualizations** and **Data**.
 
     ![task-new6.4.png](media/labMedia/task-new6.4.png)
 
@@ -84,11 +84,11 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
     ![coplitclose.png](media/labMedia/coplitclose.png)
 
-16. Click on **Preview** button to the right side to enable it and click on **Get started**.
+16. Enable the **Preview** button and click on the **Get started** button.
 
     ![task-new6.5.png](media/labMedia/task-new6.5.png)
 
-      You will now see how easy it is for the data analyst to create compelling Power BI reports and get deep insights with literally no hands-on coding!
+    You will now see how easy it is for the data analyst to create compelling Power BI reports and get deep insights with literally no hands-on coding!
 	
 17. Click on the **Prompt Guide** button.
 
@@ -145,13 +145,13 @@ We’ll ask Copilot for suggestions based on the results and data in the report.
 
     ![visualizations.png](media/labMedia/visualizations.png)
 
-24. Click on **Copilot (preview)** within the visual.
+24. Click on the **Copilot (preview)** button within the visual.
 
     ![open-narrative.png](media/labMedia/open-narrative.png)
 	
 25. Select **Give an executive summary**. 
 
-26. Click on **Update** and observe the generated summary. See how easy it was to get an executive summary with absolutely no IT resource dependency!
+26. Click on the **Update** button and observe the generated summary. See how easy it was to get an executive summary with absolutely no IT resource dependency!
  
     >**Note:** If you don't see 'Give an executive summary' option, click on the **Copilot narrative** chat box field, enter the prompt below, and click on **Update** :
 
@@ -161,7 +161,7 @@ We’ll ask Copilot for suggestions based on the results and data in the report.
 
     ![task-new16.png](media/labMedia/task-new16.png)
 
-30. Expand the narrative from the corner to get a better readable view of the result.
+30. Expand the **narrative** from the corner to get a better readable view of the result.
 
     ![expand-arrow.png](media/labMedia/expand-arrow.png)
 
