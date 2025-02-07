@@ -1,6 +1,6 @@
 
-# LAB516: Modernize your data estate with Microsoft Fabric, and Azure Databricks DREAM Lab
-**The estimated time to complete this lab is 60 minutes.**
+# LAB516: Modernize Your Data Estate with Microsoft Fabric and Azure Databricks DREAM Lab
+**Lab Completion Time: Estimated 60 Minutes**
 
 **DISCLAIMER**
 
@@ -33,10 +33,10 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
  - Task 1.3: Leverage Data Wrangler to profile and analyze data effectively & Create Delta tables using Spark Notebook
  - Task 1.4: Leverage Copilot in Dataflow Gen2 and Pipelines for No Code-Low Code Data Ingestion and Transformation with Fast Copy
 
-## Exercise 2: Azure Databricks integration with Fabric: DLT Pipelines, Unity Catalog (Data governance), Mirrored Azure Databricks Catalog
+## Exercise 2: Azure Databricks integration with Fabric: DLT Pipelines, Unity Catalog (Data governance), and Mirrored Azure Databricks Catalog
 
  - Task 2.1: Create Delta Live Table pipeline for Data Transformation
- - Task 2.2: Explore the data in the Azure Databricks environment with Unity Catalog (unified governance solution for data and AI) 'Click-by-Click'
+ - Task 2.2:  Explore the data in the Azure Databricks environment with Unity Catalog (Unified Governance Solution for Data and AI) 'Click-by-Click'
  - Task 2.3: Create a Mirrored Azure Databricks Catalog in Fabric and analyze data using T-SQL
 
 ## Exercise 3: Power BI Experience in Fabric
@@ -47,7 +47,7 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
  
 - Task 4.1: Build ML models and experiments using Copilot in Fabric
 - Task 4.2: Predict customer churn using New AutoML in Fabric
-- Task 4.2: Leverage AI skills for Q&A
+- Task 4.3: Leverage AI skills for Q&A
 
 ## Exercise 5: Real-Time Intelligence experience - Explore Streaming data using Copilot for KQL DB (Optional)
  
