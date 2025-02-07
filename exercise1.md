@@ -30,12 +30,15 @@ In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's 
 
 2. Sign in with your Azure AD credentials. If you are not already signed in, you will be redirected to the Microsoft Fabric login page.
 
+   >**Note:** Close any pop-up that appears on the screen.
+
+   ![](media/image%20(5).png)
 
 3. From the left navigation pane, click on **Workspaces** and then the **+ New workspace** button.
 
 	![task-1.1.2.png](media/labMedia/task-1.1.2.png)
 
-9. Type the name **<inject key= "WorkspaceName" enableCopy="false"/>** **validate** the available name and click **Apply**.
+9. Type the name **<inject key= "WorkspaceName" enableCopy="true"/>** **validate** the available name and click **Apply**.
 
    >**Note:** Only use the workspace name provided above.
 
