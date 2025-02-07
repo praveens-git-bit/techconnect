@@ -38,7 +38,7 @@ In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's 
 
 	![task-1.1.2.png](media/labMedia/task-1.1.2.png)
 
-9. Type the name **<inject key= "WorkspaceName" enableCopy="true"/>** **validate** the available name and click **Apply**.
+4. Type the name **<inject key= "WorkspaceName" enableCopy="true"/>** **validate** the available name and click **Apply**.
 
    >**Note:** Only use the workspace name provided above.
 
@@ -134,9 +134,9 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
    >**Note:** Wait for the screen to load.
 
-4. Select **Create new Connection**.
+4. Select **Create new Connection** radio button..
 
-5. In the screen below, we need to enter the connection details for the ADLS Gen2 shortcut.
+5. In the following screen, we need to enter the connection details for the ADLS Gen2 shortcut.
 
    ![shortcut111.png](media/labMedia/task-1.3-ext-shortcut-11.png)
 
@@ -162,7 +162,9 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
     ![task-1.3-ext-shortcut10.png](media/labMedia/task-1.3-ext-shortcut10.png)
 
-12. And there you go! Your shortcut is now ready! Click (do not expand) on the newly created shortcut named **litwaredata**.
+    And there you go! Your shortcut is now ready! 
+
+12. Click (do not expand) on the newly created shortcut named **litwaredata**.
 
     ![task-wb7.png](media/labMedia/64.1.png)
 
@@ -180,7 +182,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
    ![task-wb8S.png](media/labMedia/64.3.png)
 
-   >**Note:**  If the Pop-up appears click on **Skip tour** button.
+   >**Note:**  If the pop-up appears click on **Skip tour** button.
 
    ![task-wb8S.png](media/labMedia/64.4.png)
 
@@ -196,7 +198,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
    ![task-wb8S.png](media/labMedia/64.7.png)
 
-6.  Once the notebook is created, click on **+Code** and paste the **below code** in the cell and **run** the cell
+6.  Once the notebook is created, click on **+Code** and paste the following **code** in the cell and **run** the cell
 
    ![task-wb8S.png](media/f52.png)
 
@@ -219,7 +221,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
    ![task-wb8S.png](media/f53.png)
 
-7. In the notebook ribbon **Home** tab, use the Data Wrangler dropdown and select any dataframe.
+7. In the notebook ribbon **Home** tab, use the **Data Wrangler** dropdown and select any one of the dataframe.
 
    ![task-wb8S.png](media/f38New.png)
 
@@ -235,7 +237,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
    ![](media/f65.png)
 
-10. Since the data is already normalized will load it into Delta tables, paste the **below code** in a **new cell** and **run** the cell.
+10. Since the data is already normalized, we will load it into Delta tables, paste the following **code** in the cell and **run** the cell.
 
       ```
       import os
@@ -290,7 +292,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
     
 
-2. If prompted, uncheck **Enable Git integration, deployment pipelines and public API scenarios (preview)** box, click on **create** or proceed to **step 3**.
+2. If prompted, uncheck **Enable Git integration, deployment pipelines and public API scenarios (preview)** box, click on **Create** or proceed to **step 3**.
 
     ![task-1.3.1.png](media/labMedia/f41.png)    
 
@@ -304,7 +306,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
    ![task-1.2.04.S1.png](media/labMedia/f10.png)
 
-5. If you see a screen similar to the one shown below, click on the **Next** button otherwise move to the next step.
+5. If you see a screen similar to the following one, click on the **Next** button otherwise move to the next step.
 
    ![task-1.2.05.1.png](media/labMedia/task-1.2.05.1.png)
 
@@ -322,7 +324,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
    > **Let's use Copilot to perform data cleansing.**
 
-9. Click on the **Copilot** button, paste the **prompt** provided below in the following text box and click on the **send** icon.
+9. Click on the **Copilot** button, paste the following **prompt** in the textbox and click on the **send** icon.
 
    > **Note**: If the **Copilot** icon is not visible, click on the **Expand Ribbon** icon on the right side of the **Dataflow taskbar**. 
 
@@ -340,7 +342,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
     > **Let's use Copilot to remove empty rows.**
 
-11. Similarly, paste the prompt below in Copilot and click on the **send** icon.
+11. Similarly, paste the following prompt in Copilot and click on the **send** icon.
 
       ```
       Remove empty rows from GrossRevenue and NetRevenue columns.
@@ -413,9 +415,11 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
    ![task_1.4.12.png](media/labMedia/task_1.4.12.png)
 
-5. In the Copilot pane, click on the predefined option **Ingest data** and the below text will be populated in the prompt text box.
+5. In the Copilot pane, click on the predefined option **Ingest data** and the following text will be populated in the prompt textbox.
 
-   ```Get data using copy data activity```
+   ```
+   Get data using copy data activity
+   ```
 
 6. Click on **Send** icon.
 
@@ -425,7 +429,7 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
    ![task_1.4.14.png](media/labMedia/task_1.4.14.png)
 
-8. Enter the **below prompt** in the text box and click on **Send** icon.
+8. Enter the following **prompt** in the textbox and click on **Send** icon.
 
    ```Source connection of "copy0" (Copy) is lakehouse;
    Destination connection of "copy0" (Copy) is lakehouse
@@ -433,7 +437,7 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
    ![task_1.4.15.png](media/labMedia/task_1.4.15.png)
 
-9. Enter the below prompt in the text box and click on **Send** icon.
+9. Enter the following **prompt** in the textbox and click on **Send** icon.
 
    ```BASH
    Table of Source connection "lakehouse" (Lakehouse) in "copy0" (Copy) is data/CampaignData/campaign-data.csv;
@@ -458,7 +462,7 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
     ![task_1.4.20.png](media/labMedia/f42.png)
 
-14. Scroll up in the Copilot window to the top and select **Summarize this pipeline** option. The below text will be populated in the prompt text box.
+14. Scroll up in the Copilot window to the top and select **Summarize this pipeline** option. The following text will be populated in the prompt textbox.
 
 ### Summarize this pipeline
 

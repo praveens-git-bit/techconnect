@@ -1,6 +1,6 @@
 
 # LAB516: Modernize Your Data Estate with Microsoft Fabric and Azure Databricks DREAM Lab
-**Lab Completion Time: Estimated 60 Minutes**
+**Lab Completion Time: Estimated 60 minutes**
 
 **DISCLAIMER**
 
@@ -30,7 +30,7 @@ THIS DEMO/LAB PROVIDES CERTAIN SOFTWARE TECHNOLOGY/PRODUCT FEATURES AND FUNCTION
  
  - Task 1.1: Create a Microsoft Fabric enabled workspace
  - Task 1.2: Use the ‘New Shortcut’ option from external data sources
- - Task 1.3: Leverage Data Wrangler to profile and analyze data effectively & Create Delta tables using Spark Notebook
+ - Task 1.3: Leverage Data Wrangler to Profile Data, Analyze Effectively, and Create Delta Tables with Spark Notebook
  - Task 1.4: Leverage Copilot in Dataflow Gen2 and Pipelines for No Code-Low Code Data Ingestion and Transformation with Fast Copy
 
 ## Exercise 2: Azure Databricks integration with Microsoft Fabric: DLT Pipelines, Unity Catalog (Data governance), and Mirrored Azure Databricks Catalog

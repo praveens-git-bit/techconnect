@@ -142,7 +142,7 @@ Continuing from the previously created Mirrored SQL DB window, select **SQL anal
 
 **Note:** Click on the **Refresh** button if you are not able view the Tables.
 
-3. Copy the below **SQL query** in query editor to explore mirrored data and perform your analysis.
+3.Copy the following **SQL query** in query editor to explore mirrored data and perform your analysis.
 
 ```
 Select distinct [ProductName] 

@@ -96,7 +96,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 18. Select the option **What's in my data?**
 
-    > **Note:** If you don't see the 'What's in my data?' option, click in the **Copilot chat box** field, enter the prompt below, and click the **Send** button: 
+    > **Note:** If you don't see the 'What's in my data?' option, click in the **Copilot chatbox** field, enter the following prompt, and click the **Send** button: : 
 
     ![promptguide2.png](media/labMedia/promptguide2.png)
 
