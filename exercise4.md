@@ -249,7 +249,7 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
    ![task-5.2](media/labMedia/AIskill4.png)
 
-5. Click on **refresh** and Expand **Tables** then select the following tables.
+5. Click on **Refresh**, expand **Tables**, then expand **dbo**, and select the following tables.
 
 - dimcustomer
 - dimdate
@@ -258,7 +258,7 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 - factinternetsales
 - factresellersales
 
-   ![task-5.2](media/labMedia/AIskill5.png)
+   ![task-5.2](media/labMedia/items.png)
 
 6. Click on **Get Started**.
 
