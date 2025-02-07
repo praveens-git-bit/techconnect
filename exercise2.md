@@ -1,4 +1,4 @@
-### Exercise 2: Azure Databricks integration with Fabric: DLT Pipelines, Unity Catalog (Data governance), and Mirrored Azure Databricks Catalog
+### Exercise 2: Azure Databricks integration with Microsoft Fabric: DLT Pipelines, Unity Catalog (Data governance), and Mirrored Azure Databricks Catalog
 
 This exercise shows how Microsoft Fabric with Databricks enabled Contoso to solve their integration challenges. The acquired company, Litware Inc., was already using Databricks heavily and they stored their churn and sales data in ADLS Gen2. We’ll see how Unity Catalog benefited Contoso’s data architects so they could quickly get up to speed on all Litware Inc.’s data.
 
@@ -6,7 +6,7 @@ This exercise shows how Microsoft Fabric with Databricks enabled Contoso to solv
 
 Delta Live Tables (DLT) allow you to build and manage reliable data pipelines that deliver high-quality data in Lakehouse. DLT helps data engineering teams simplify ETL development and management with declarative pipeline development, automatic data testing, and deep visibility for monitoring and recovery.
 
-1. Go back to the browser tab of Resource Group .
+1. Go back to the browser tab of **Resource Group** .
 
 Search for the Azure Databricks in the Resource group search field and click on **adb-techconnect....**.
 
@@ -16,7 +16,7 @@ Search for the Azure Databricks in the Resource group search field and click on 
 
     ![databrickssignin.png](media/labMedia/launchdatabricks.png)
 
-**Note:** Click on the **Sign in with Microsoft Entra ID**.
+**Note:** Click on the **Sign in with Microsoft Entra ID** button.
 
 ![databrickssignin.png](media/labMedia/databrickssignin.png)
 
@@ -40,7 +40,7 @@ DLT_Pipeline
 
 ![task-2.2.4new.png](media/labMedia/f13.png)
 
-7. Type ``dbo`` in **Default schema** feild and click on the **Create** button.
+7. Type **dbo** in **Default schema** feild and click on the **Create** button.
 
 ![task-2.2.5new.png](media/labMedia/f45.png)
 
@@ -62,7 +62,7 @@ This beautiful lineage view showing the Medallion Architecture is a data design 
 
 We saw how Contoso utilized DLT pipelines to create a Medallion architecture on their data. Now let’s look at how data governance was managed on this curated data across the organization and made easy with Unity Catalog.
  
-With the acquisition of Litware Inc., Contoso had a lot of data integration and interoperability challenges. They wanted to make sure that the transition was smooth, and their data engineers and data scientists could easily assimilate the data processed by Databricks. Thankfully, they were able to leverage Gen AI features right within Azure Databricks to understand and derive insights from this data.
+With the acquisition of Litware Inc., Contoso had a lot of data integration and interoperability challenges. They wanted to make sure that the transition was smooth, and their data engineers and data scientists could easily assimilate the data processed by Azure Databricks. Thankfully, they were able to leverage Gen AI features right within Azure Databricks to understand and derive insights from this data.
 
 >**Note**: Due to time constraints, the following steps will be completed via an online Click-by-Click exercise.
 >Please follow the green beacons for this exercise.
@@ -74,9 +74,9 @@ With the acquisition of Litware Inc., Contoso had a lot of data integration and 
 
 2. Continue with the next task.
 
-### Task 2.3: Create a Mirrored Azure Databricks Catalog in Fabric and analyze data using T-SQL
+### Task 2.3: Create a Mirrored Azure Databricks Catalog in Microsoft Fabric and analyze data using T-SQL
 
-Mirroring the Azure Databricks Catalog structure in Fabric allows seamless access to the underlying catalog data through shortcuts. This means that any changes made to the data are instantly reflected in Fabric, without the need for data movement or replication. Let’s step into Data Engineer, Eva’s shoes to create a Mirrored Azure Databricks Catalog and analyze the data using T-SQL. 
+Mirroring the Azure Databricks Catalog structure in Microsoft Fabric allows seamless access to the underlying catalog data through shortcuts. This means that any changes made to the data are instantly reflected in Microsoft Fabric, without the need for data movement or replication. Let’s step into Data Engineer, Eva’s shoes to create a Mirrored Azure Databricks Catalog and analyze the data using T-SQL. 
 
 1. Navigate back to the Microsoft Fabric tab on your browser (https://app.fabric.microsoft.com).
 
@@ -104,7 +104,7 @@ Mirroring the Azure Databricks Catalog structure in Fabric allows seamless acces
 
 ![Task-2.3_7.png](media/labMedia/Task-2.3_7.png)
 
-8. Click on **Next** button.
+8. Click on the **Next** button.
 
 ![Task-2.3_7.1.png](media/labMedia/Task-2.3_7.1.png)
 
@@ -112,11 +112,15 @@ Mirroring the Azure Databricks Catalog structure in Fabric allows seamless acces
 
 ![Task-2.3_8.png](media/labMedia/Task-2.3_8.png)
 
-10. Enter the **Artifact name** for your mirrored Databricks Catalog and click on the **Create** button.
+10. In the **Artifact name** field enter **litware_unity_catalog** for your mirrored Databricks Catalog and click on the **Create** button.
+
+```BASH
+litware_unity_catalog
+```
 
 ![Task-2.3_9.png](media/labMedia/Task-2.3_9.png)
 
-11. Click on the **Monitor catalog** button to track the mirroring status and then close it.
+11. Click on the **Monitor catalog** button to track the mirroring **Status** and then close it.
 
 ![Task-2.3_10.1.png](media/labMedia/Task-2.3_10.1.png)
 
@@ -128,7 +132,7 @@ Mirroring the Azure Databricks Catalog structure in Fabric allows seamless acces
 
 Each mirrored Azure SQL database has an autogenerated SQL analytics endpoint that provides a rich analytical experience on top of the tables created by the mirroring process.
 
-This means Contoso’s marketing data from SQL database is accessed seamlessly in Fabric with zero ETL, and it is always kept In Sync automatically in Fabric. Once the mirroring was up and running, Data Engineer, Eva, was able to access the tables in SQL Database and integrate the data in minutes. Let’s step into her shoes and see how it’s done!
+This means Contoso’s marketing data from SQL database is accessed seamlessly in Microsoft Fabric with zero ETL, and it is always kept In Sync automatically in Microsoft Fabric. Once the mirroring was up and running, Data Engineer, Eva, was able to access the tables in SQL Database and integrate the data in minutes. Let’s step into her shoes and see how it’s done!
 
 Continuing from the previously created Mirrored SQL DB window, select **SQL analytics endpoint** from top right dropdown box.
 
