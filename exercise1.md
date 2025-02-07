@@ -142,27 +142,27 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 6. Copy the **Data Lake Storage endpoint**: **<inject key= "storageEndpoint" enableCopy="true"/>** and paste it into the **URL** field.
 
-8. Select **Organization account** in the **Authentication Kind**, and then click on **Sign in**.
+   > **Note** : If you're already **signed in**, you can skip steps 8 and 9.
+
+7. Select **Organization account** in the **Authentication Kind**, and then click on **Sign in**.
 
    ![shortcut111.png](media/labMedia/task-1.3-ext-shortcut-111.png)
 
-9. Click on your ID to complete the Sign in.
+8. Click on your ID to complete the Sign in.
 
    ![shortcut111.png](media/labMedia/task-1.3-signinpage.png)
 
-   > **Note** : If you're already signed in, you can skip steps 8 and 9.
+9. Click on **Next** button.
 
-10. Click on **Next** button.
-
-11. Select the **data** and **litwaredata** checkbox and then click on the **Next** button.
+10. Select the **data** and **litwaredata** checkbox and then click on the **Next** button.
 
     ![task-wb6.png](media/labMedia/task-wb6.png)
 
-12. Click on the **Create** button.
+11. Click on the **Create** button.
 
     ![task-1.3-ext-shortcut10.png](media/labMedia/task-1.3-ext-shortcut10.png)
 
-13. And there you go! Your shortcut is now ready! Click (do not expand) on the newly created shortcut named **litwaredata**.
+12. And there you go! Your shortcut is now ready! Click (do not expand) on the newly created shortcut named **litwaredata**.
 
     ![task-wb7.png](media/labMedia/64.1.png)
 
@@ -198,6 +198,8 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
 6.  Once the notebook is created, click on **+Code** and paste the **below code** in the cell and **run** the cell
 
+   ![task-wb8S.png](media/f52.png)
+
    ```BASH
    import os
    # List all CSV files in the 'litwaredata' folder
@@ -212,8 +214,6 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
    df_factresellersales= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[6])
    df_website_bounce_rate= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[7])
    ```
-
-   ![task-wb8S.png](media/f52.png)
 
    > **Note:** Once the Spark code execution is completed, the output will appear as shown in the screenshot.
 
@@ -235,7 +235,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
    ![](media/f65.png)
 
-10. Since the data is already normalized will load it into Delta tables, paste the **below code** in the cell and **run** the cell.
+10. Since the data is already normalized will load it into Delta tables, paste the **below code** in a **new cell** and **run** the cell.
 
       ```
       import os
@@ -254,23 +254,25 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
     ![task-wb8S.png](media/labMedia/64.8.png)
 
-11. Once the execution is successful, **stop the Spark session** and click on **Lakehouse** in the left navigation pane..
+11. Once the execution is successful, **stop the Spark session**.
+
+12. Click on **Lakehouse** in the left navigation pane..
 
     ![task-wb8S.png](media/labMedia/f64.png)
 
-12. Expand **tables**, expand **dbo**, click on the **three dots**, and then click on **Refresh**. 
+13. Expand **tables**, expand **dbo**, click on the **three dots**, and then click on **Refresh**. 
 
      ![task-wb8S.png](media/labMedia/64.10.1.png)
 
-13. View the successfully **loaded tables**.
+14. View the successfully **loaded tables**.
 
     ![task-wb8S.png](media/labMedia/f66.png)
 
-14. Click on **website_bounce_rate** delta table and view the website bounce rate data.
+15. Click on **website_bounce_rate** delta table and view the website bounce rate data.
 
      ![](media/labMedia/f67.png)
 
-15. You now have all the tables in **OneLake** for Contoso to leverage. Next, we proceed with data transformation using Dataflow Gen2 to transform the sales data ingested from Litware. 
+16. You now have all the tables in **OneLake** for Contoso to leverage. Next, we proceed with data transformation using Dataflow Gen2 to transform the sales data ingested from Litware. 
 
 
 
@@ -282,7 +284,7 @@ Using another great feature in Microsoft Fabric’s Data Factory, called Fast Co
 You will experience how easy it is to use Fast Copy to transform 100M rows of Litware's sales data into the Lakehouse.
 
 
-1. Click on **Workspace** and select **New item** then Click on **Dataflow Gen2**.
+1. Click on **<inject key= "WorkspaceName" enableCopy="false"/>** and select **New item** then Click on **Dataflow Gen2**.
 
    ![task-1.3.1.png](media/labMedia/f9.png)
 
@@ -298,9 +300,9 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
 4. In the pop-up window, scroll down to **OneLake catalog** and click on **lakehouse**.
 
-    ![task-1.2.04.S1.png](media/labMedia/f10.png)
+   >Note: It may take some time to appear in **Recent**. You can try finding it under **Recommended** or **OneLake** in the left navigation panel.
 
-   >**Note** : It may take sometime to appear in the recents.
+   ![task-1.2.04.S1.png](media/labMedia/f10.png)
 
 5. If you see a screen similar to the one shown below, click on the **Next** button otherwise move to the next step.
 
@@ -321,6 +323,8 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
    > **Let's use Copilot to perform data cleansing.**
 
 9. Click on the **Copilot** button, paste the **prompt** provided below in the following text box and click on the **send** icon.
+
+   > **Note**: If the **Copilot** icon is not visible, click on the **Expand Ribbon** icon on the right side of the **Dataflow taskbar**. 
 
    ```
    In the table sales_data csv, apply first row as headers.
@@ -374,6 +378,10 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 17. Expand the workspace **<inject key= "WorkspaceName" enableCopy="true"/>**, and select **lakehouse**.
 
 18. Enter the table name as **salesdataupdated** and then click on the **Next** button.
+
+   ```BASH
+      salesdataupdated
+   ```
 
      ![](media/f55.png)
 
