@@ -6,9 +6,9 @@ Mirroring in Microsoft Fabric provides an easy experience to avoid complex ETL (
 
 Litware had a lot of their marketing data in the Azure SQL DB, so Contoso used Database Mirroring to help further reduce their data movement and dependency on different systems. 
 
-1. Navigate to the **Microsoft Fabric tab** on your browser (https://app.fabric.microsoft.com).
+1. Navigate to the **Microsoft Fabric** tab on your browser (https://app.fabric.microsoft.com).
 
-2. Click on your workspace, and select **+ New item** from menu bar.
+2. Click on your **<inject key= "WorkspaceName" enableCopy="false"/>**, and select **+ New item** from menu bar.
 
    ![Task-6.1_1.png](media/labMedia/Task-6.1_1.png)
 
@@ -46,7 +46,7 @@ Litware had a lot of their marketing data in the Azure SQL DB, so Contoso used D
 
    ![Task-6.1_9.png](media/labMedia/Task-6.1_9.png)
 
-9. Enter the name for your mirrored db as **Mirrored_SalesDb1** and click on the **Create mirrored database** button.
+9. Enter the name for your mirrored database as **Mirrored_SalesDb1** and click on the **Create mirrored database** button.
 
     ```BASH
     Mirrored_SalesDb1
@@ -54,7 +54,7 @@ Litware had a lot of their marketing data in the Azure SQL DB, so Contoso used D
 
     ![Task-6.1_9.1.png](media/labMedia/Task-6.1_9.1.png)
 
-11. Wait until the **Rows replicated** statistics are displayed. If not refresh the **Monitor replication** tab as shown in the below screen. Now, Azure SQL DB has been successfully mirrored.
+11. Wait until the **Rows replicated** statistics are displayed. If not refresh the **Monitor replication** tab as shown in the  following screenshot. Now, Azure SQL DB has been successfully mirrored.
 
     >**Note:** If **rows replicated** is blank, refresh the page using **Ctrl + Shift + R**.
 
@@ -73,13 +73,13 @@ This means Contoso’s marketing data from SQL database is accessed seamlessly i
 
    ![Task-6.2_1.png](media/labMedia/Task-6.2_1.png)
 
-2. Click on **Refresh** button, expand the **dbo** and you can select the mirrored tables to see data preview. and then click on **New SQL query** button from the menu bar.
+2. Click on **Refresh** button, expand the **dbo** and you can select the mirrored tables to see data preview.  Now, click on **New SQL query** button from the menu bar.
 
    >**Note:** If the tables are not visible, please wait for a couple of minutes and then click the **Refresh** button again.
    
      ![Task-6.2_2.png](media/labMedia/f63.png)
 
-3. Copy below **SQL query** in query editor to explore mirrored data and perform your analysis. 
+3. Copy following **SQL query** in query editor to explore mirrored data and perform your analysis. 
 
     ```
     Select distinct [ProductName] 
@@ -89,7 +89,7 @@ This means Contoso’s marketing data from SQL database is accessed seamlessly i
     where [SalesAmount] > 6000
     ```
 
-4. Click on **Run**. 
+4. Click on the **Run** icon.
 
    ![Task-6.2_3.png](media/labMedia/f50.png)
 
@@ -97,15 +97,16 @@ This means Contoso’s marketing data from SQL database is accessed seamlessly i
 
 Congratulations! You, as Data Engineers and Data Analysts have helped Contoso gain actionable insights from its disparate data sources, thereby contributing to future growth, customer satisfaction, and a competitive advantage.
 
-In this lab we experienced the creation of a simple integrated, open and governed Data Lakehouse foundation using Modern Analytics with Microsoft Fabric and Azure Databricks.
+In this lab, we experienced the creation of a simple integrated, open and governed Data Lakehouse foundation using Modern Analytics with Microsoft Fabric and Azure Databricks.
 
-In this lab we covered the following:
+We covered the following:
 
 First, we explored the Data Engineering/Data Factory experience and learned how to create a Microsoft Fabric enabled workspace, build a Lakehouse, and ingest data into OneLake using Microsoft Fabric, including Delta tables, dataflows, and pipelines for both low-code and no-code data transformations.
 
 Second, we explored the integration of Azure Databricks with Microsoft Fabric, including using Delta Live Tables for transformations, Unity Catalog for data governance, and analyzing mirrored Databricks data using T-SQL.
 
-Third, we created a semantic model in Power BI and generate insights using Copilot in Microsoft Fabric.
+Then, we created a semantic model in Power BI and generate insights using Copilot in Microsoft Fabric.
+
 <!-- 
 Fourth, we explored real-time data ingestion using Eventstream and analyzed patterns, anomalies, and outliers with Copilot in KQL Database.
 

@@ -6,13 +6,13 @@ Imagine, it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are
 
 In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data from the event hub into the KQL Database to monitor in-store temperatures in real time.  
 
-1. Select **<inject key= "WorkspaceName" enableCopy="true"/>** Workspace from the left navigation pane, click on **+New item**, then scroll down to the **Store data** section, and click on **Eventhouse**.
+1. Select **<inject key= "WorkspaceName" enableCopy="true"/>** workspace from the left navigation pane, click on **+New item**, then scroll down to the **Store data** section, and click on **Eventhouse**.
 
    ![task-5.4551.png](media/labMedia/RTIEventhouse.png)
 
-    >**Note:** If you see a pop-up like the one below, click on the **Don't save** button.
+    >**Note:** If you see a pop-up like the following one, click on the **Don't save** button.
 
-     ![donotsave.png](media/labMedia/donotsave.png)  
+    ![donotsave.png](media/labMedia/donotsave.png)  
 
     **Note:** Screenshots in the exercises may sometimes differ from the actual lab. Please adjust your screen resolution to locate items and select them as needed.
 
@@ -26,7 +26,7 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
    ![eventhouse2.png](media/labMedia/eventhouse2.png)
 
-   >**Note:** If you see a pop-up like the one in the screenshot below, ignore it and proceed with the next step.
+   >**Note:** If you see a pop-up like the one in the following screenshot, ignore it and proceed with the next step.
 
    ![eventhouse16.png](media/labMedia/eventhouse16.png)
 
@@ -51,7 +51,7 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
    ![task-5.2.1new1.0.4.png](media/labMedia/task-4.1.9.png)
 
-9. Under the **Connection field**, click on **New connection**.
+9. Under **Connection**, click on **New connection**.
 
    ![eventhouse13.png](media/labMedia/eventhouse13.png)
 
@@ -163,7 +163,7 @@ Kusto Query Language is a powerful tool. In this scenario KQL is used to explore
 
 We use KQL to query the thermostat data that’s streaming in near real-time from the devices installed in Contoso’s stores.
 
-1. Select **<inject key= "WorkspaceName" enableCopy="true"/>** Workspace from the left navigation pane, click on **+New item**, then scroll down to the **Track data** section, and click on **KQLQueryset**.
+1. Select **<inject key= "WorkspaceName" enableCopy="true"/>** workspace from the left navigation pane, click on **+New item**, then scroll down to the **Track data** section, and click on **KQLQueryset**.
 
    ![task-5.3.1.png](media/RTIQueryset.png)
 
@@ -188,7 +188,7 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
    ![eventhouse11.png](media/labMedia/eventhouse11.png)
 
-7. **Paste** the query provided below in the Copilot query section.
+7. **Paste** the following query provided below in the Copilot query section.
 
     ```BASH
       Create a query to summarize average temperature every 1 min in line chart
@@ -198,7 +198,7 @@ We use KQL to query the thermostat data that’s streaming in near real-time fro
 
     >**Note:** If you receive a response from Copilot such as "I am not sure" please ask the question again.
 
-    >**Note:** The responses from Copilot may not match the ones in the screenshot but will provide a similar response. 
+    >**Note:** The responses from Copilot may not match the ones in the screenshot but will be a similar one.
 
 10. Click on the **Insert** button.
 
