@@ -43,15 +43,15 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
    ![Eventst-name1.png](media/labMedia/f47.png)
 
-7. Click on the **Add external source** button. 
+7. Click on **Add external source**. 
 
    ![eventhouse12.png](media/labMedia/eventhouse12.png)
 
-8. Click on the **Connect** button for **Azure Event Hubs**.
+8. Click on the **Connect** button beside **Azure Event Hubs**.
 
    ![task-5.2.1new1.0.4.png](media/labMedia/task-4.1.9.png)
 
-9. Under the Connection field, click on **New connection**.
+9. Under the **Connection field**, click on **New connection**.
 
    ![eventhouse13.png](media/labMedia/eventhouse13.png)
 
@@ -83,7 +83,7 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
  ![eventhubnamespace](media/thermostatkey.png)
 
-16. Go back to the **Microsoft Fabric** and scroll down and select **Shared Access Key** for Authentication kind, enter the Shared Access Key Name as **thermostat** and then Enter the value copied in the earlier step for **Shared Access Key** and then click on the **Connect** button.
+16. Go back to the **Microsoft Fabric** and scroll down and select **Shared Access Key** from Authentication kind dropdown, enter the Shared Access Key Name as **thermostat** and then **enter** the value copied in the earlier step for **Shared Access Key** and then click on the **Connect** button.
 
    ```BASH
       thermostat
@@ -95,7 +95,7 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
    ![pop-up3.png](media/labMedia/pop-up3.png)
 
-11. Select Data format as **JSON** and click on **Next** button.
+11. Select Data format as **JSON** and click on the **Next** button.
 
     ![eventhouse15.png](media/labMedia/eventhouse15.png)
 
@@ -133,7 +133,7 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
     ![eventhouse6.png](media/labMedia/eventhouse6.png)
 
-20. Enter the Input data format as **Json**.
+20. Enter the Input data format as **Json** and then click on the **Save** button.
 
     >**Note:** Zoom-out on your screen if the **Input data format field** is not visible.
 
