@@ -79,9 +79,14 @@ Now, let's see how each department can easily create a Lakehouse in the Contoso 
 
     ![](media/labMedia/f1.png)
 
+   >**Note:** Close any pop-up that appears on the screen.
+
+   ![](media/image%20(5).png)
+
 2. Click on the **three dots (ellipsis)** below the workspace.
 
     ![](media/labMedia/f2.png)
+    
 
 3. In the new window, under Data Engineering, click **Lakehouse**.
 
@@ -187,7 +192,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
    ![task-wb8S.png](media/labMedia/64.7.png)
 
-6. Once the notebook is created, paste the **below code** in the cell and **run** the cell.
+6.  Once the notebook is created, click on **+Code** and paste the **below code** in the cell and **run** the cell
 
    ```BASH
    import os
@@ -204,9 +209,13 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
    df_website_bounce_rate= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[7])
    ```
 
-   ![task-wb8S.png](media/f37.png)
+   ![task-wb8S.png](media/f52.png)
 
-7. In the notebook ribbon **Home** tab, use the Data Wrangler dropdown and select **dfcustomer** dataframe.
+   > **Note:** Once the Spark code execution is completed, the output will appear as shown in the screenshot.
+
+   ![task-wb8S.png](media/f53.png)
+
+7. In the notebook ribbon **Home** tab, use the Data Wrangler dropdown and select any dataframe.
 
    ![task-wb8S.png](media/f38New.png)
 
@@ -214,46 +223,50 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
    ![](media/labMedia/wrangler.png)
 
-8. When Data Wrangler loads, it displays a descriptive overview of the chosen DataFrame in the **Summary** panel. Note that the table have no missing values and duplicate rows, similarly you can view data frames for other tables.
+8. When Data Wrangler loads, it displays a descriptive overview of the chosen DataFrame in the **Summary** panel. Note that the table have no missing values and duplicate rows, similarly you can view data frames for other csv.
 
    ![task-wb8S.png](media/labMedia/f39.png)
 
-9. Since the data is already normalized will load it into Delta tables, paste the **below code** in the cell and **run** the cell.
+9. Click on the **Back** arrow to return to the notebook.
 
-   ```
-   import os
-   import pandas as pd
-   
-   # List all CSV files in the 'litwaredata' folder
-   file_path = '/lakehouse/default/Files/litwaredata/'
-   csv_files = [file for file in os.listdir(file_path) if file.endswith('.csv')]
-   
-   # Load each CSV file into a table
-   for file in csv_files:
-      table_name = file.split('.')[0]
-      df = pd.read_csv(file_path + file)
-      spark.createDataFrame(df).write.mode("ignore").format("delta").saveAsTable(table_name)
-   ```
+   ![](media/f65.png)
 
-   ![task-wb8S.png](media/labMedia/64.8.png)
+10. Since the data is already normalized will load it into Delta tables, paste the **below code** in the cell and **run** the cell.
 
-10. Once the execution is successful, **stop the Spark session** and click on **Lakehouse**.
+      ```
+      import os
+      import pandas as pd
+      
+      # List all CSV files in the 'litwaredata' folder
+      file_path = '/lakehouse/default/Files/litwaredata/'
+      csv_files = [file for file in os.listdir(file_path) if file.endswith('.csv')]
+      
+      # Load each CSV file into a table
+      for file in csv_files:
+         table_name = file.split('.')[0]
+         df = pd.read_csv(file_path + file)
+         spark.createDataFrame(df).write.mode("ignore").format("delta").saveAsTable(table_name)
+      ```
 
-    ![task-wb8S.png](media/labMedia/64.9.png)
+    ![task-wb8S.png](media/labMedia/64.8.png)
 
-11. Expand **tables**, expand **dbo**, click on the **three dots**, and then click on **Refresh**. 
+11. Once the execution is successful, **stop the Spark session** and click on **Lakehouse**.
 
-    ![task-wb8S.png](media/labMedia/64.10.1.png)
+    ![task-wb8S.png](media/labMedia/f64.png)
 
-12. View the successfully **loaded tables**.
+12. Expand **tables**, expand **dbo**, click on the **three dots**, and then click on **Refresh**. 
 
-    ![task-wb8S.png](media/labMedia/64.10.png)
+     ![task-wb8S.png](media/labMedia/64.10.1.png)
 
-13. Click on **website_bounce_rate** delta table and view the website bounce rate data.
+13. View the successfully **loaded tables**.
 
-    ![StloadtableNew.png](media/labMedia/64.11.png)
+    ![task-wb8S.png](media/labMedia/f66.png)
 
-14. You now have all the tables in **OneLake** for Contoso to leverage. Next, we proceed with data transformation using Dataflow Gen2 to transform the sales data ingested from Litware. 
+14. Click on **website_bounce_rate** delta table and view the website bounce rate data.
+
+     ![](media/labMedia/f67.png)
+
+15. You now have all the tables in **OneLake** for Contoso to leverage. Next, we proceed with data transformation using Dataflow Gen2 to transform the sales data ingested from Litware. 
 
 
 
@@ -269,9 +282,11 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
    ![task-1.3.1.png](media/labMedia/f9.png)
 
-   >**Note** : If you see a pop-up saying **Enable Git integration, deployment pipelines, and public API scenarios (preview)**, ensure you uncheck the box and click **Create**.
+    
 
-    ![task-1.3.1.png](media/labMedia/f41.png)
+2. If prompted, uncheck **Enable Git integration, deployment pipelines and public API scenarios (preview)** box, click on **create** or proceed to **step3**.
+
+    ![task-1.3.1.png](media/labMedia/f41.png)    
 
 3. Click on the top part of the **Get data** icon (**not on the dropdown arrow at the bottom of the icon**).
 
@@ -333,7 +348,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
       >**Note:** Expand the queries pane collapsed earlier.
 
-13. Right click on the **query** and then select **Require fast copy**.
+13. Right click on the **Sales_data csv** under **Queries** and then select **Require fast copy**.
 
     ![task_1.4.7.png](media/labMedia/task_1.4.7.png)
 
@@ -354,9 +369,9 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
 17. Expand the workspace **<inject key= "WorkspaceName" enableCopy="true"/>**, and select **lakehouse**.
 
-18. Enter the table name as **sales_data_updated** and then click on the **Next** button.
+18. Enter the table name as **salesdataupdated** and then click on the **Next** button.
 
-    ![](media/59.png)
+     ![](media/f55.png)
 
 18. Click on the **Save settings** button.
 
