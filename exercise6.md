@@ -30,17 +30,17 @@ Litware had a lot of their marketing data in the Azure SQL DB, so Contoso used D
 
 ![task-1.3.16.png](media/labMedia/task-6.2.6.png)
 
-8.  Scroll down and select **Basic** for Authentication kind, enter **labsqladmin** as the **Username**, **Smoothie@2025** as the **Password** and click on the **Next** button.
+8.  Scroll down and select **Basic** for Authentication kind, enter **labsqladmin** as the **Username**, **Smoothie@2025** as the **Password** and click on the **Connect** button.
 
-   ```BASH
+    ```BASH
       labsqladmin
-   ```
-   ```BASH
-      Smoothie@2025
-   ```
-   ![task-1.3.16.png](media/labMedia/task-1.3.16.png)
+    ```
+      ```BASH
+         Smoothie@2025
+      ```
+    ![task-1.3.16.png](media/labMedia/f62.png)
 
->**Note:** Close any pop-up that you see throughout the lab.
+    >**Note:** Close any pop-up that you see throughout the lab.
 
 9. In the **Choose data** screen, you can select the tables to be mirrored into Fabric, then select the checkbox **Automatically mirror future tables** and click on **Connect** button.
 
@@ -52,11 +52,13 @@ Litware had a lot of their marketing data in the Azure SQL DB, so Contoso used D
     Mirrored_SalesDb1
     ```
 
-   ![Task-6.1_9.1.png](media/labMedia/Task-6.1_9.1.png)
+    ![Task-6.1_9.1.png](media/labMedia/Task-6.1_9.1.png)
 
 11. Wait until the **Rows replicated** statistics are displayed. If not refresh the **Monitor replication** tab as shown in the below screen. Now, Azure SQL DB has been successfully mirrored.
 
-   ![Task-6.1_11.png](media/labMedia/f49.png)
+    >**Note:** If **rows replicated** is blank, refresh the page using **Ctrl + Shift + R**.
+
+    ![Task-6.1_11.png](media/labMedia/f49.png)
 
 ---
 
@@ -70,11 +72,11 @@ This means Contoso’s marketing data from SQL database is accessed seamlessly i
 
    ![Task-6.2_1.png](media/labMedia/Task-6.2_1.png)
 
-2. Click on **Refresh** button, expand the **Schemas** and you can select the mirrored tables to see data preview. and then click on **New SQL query** button from the menu bar.
+2. Click on **Refresh** button, expand the **dbo** and you can select the mirrored tables to see data preview. and then click on **New SQL query** button from the menu bar.
 
    >**Note:** If the tables are not visible, please wait for a couple of minutes and then click the **Refresh** button again.
    
-    ![Task-6.2_2.png](media/labMedia/f48.png)
+     ![Task-6.2_2.png](media/labMedia/f63.png)
 
 3. Copy below **SQL query** in query editor to explore mirrored data and perform your analysis. 
 

@@ -17,6 +17,10 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.4.png)
 
+   **Note:** Click on **Don't save** if this pop-up appears.
+
+     ![task-3.1.2.png](media/labMedia/f59.png)
+
 2. Click on **Import** and select **notebook** then click on **From this computer**
 
    ![task-3.1.2.png](media/labMedia/f16.png)
@@ -81,6 +85,10 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
     >**Note:** This may take a while to execute, please wait till this loads completely.
 
     ![task-3.1.2.png](media/labMedia/exercise5_1.7.png)
+
+    >**Note:** Once the execution is completed, the output will appear as shown in the screenshot.
+
+       ![task-3.1.2.png](media/labMedia/f60.png)
 
 18. Copy and paste the **below prompt** in the textbox.
 
@@ -212,7 +220,7 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
 
 16. Scroll down and notice prediction results generated from the model.
 
-    ![task-3.1.2.png](media/labMedia/f35.png)
+      ![task-3.1.2.png](media/labMedia/f61.png)
 
 17. Scroll down to the last cell, observe the prediction being saved in the table in OneLake.
 
@@ -229,11 +237,11 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.4.png)
 
-2. Click on **New item** and search for **AI Skill** the select **AI Skill**.
+2. Click on **New item** and search for **AI Skill** then select **AI Skill(Preview)**.
 
     ![task-5.2](media/labMedia/f18.png)
 
-3. Enter Name as **Contoso-Assistance** 
+3. Enter Name as **Contoso-Assistant** 
 
    ![task-5.2](media/labMedia/AIskill3.png)
 
