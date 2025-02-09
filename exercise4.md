@@ -296,9 +296,13 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
 9. Copy the above notes and paste it in **Notes for model** box. Type **What is the most sold product ?** in the chatbox and then click on the **Send** button.  
 
-   Asking the question again returns a different answer, **Mountain-200 Black, 46**, as shown in the below screenshot:
+    ```BASH
+        What is the most sold product?
+    ```
 
-   ![task-5.2](media/labMedia/AIskill8.png)
+    Asking the question again returns a different answer, **Mountain-200 Black, 46**, as shown in the below screenshot:
+
+    ![task-5.2](media/labMedia/AIskill8.png)
 
    In addition to instructions, examples serve as another effective way to guide the AI. If you have questions that your AI skill often receives, or questions that require complex joins.
 
@@ -315,7 +319,7 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
     ![task-5.2](media/labMedia/AIskill10.png)
 
-    >**Note** : After entering the first example and query, click the **+ Add Example** button.
+>**Note** : After entering the first example and query, click the **+ Add Example** button.
 
 12. Click on **close(X)** button.
 

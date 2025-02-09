@@ -119,9 +119,9 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
     - If you see the error message saying, 'Something went wrong.', try refreshing the page and restart the task. Being in a shared environment, the service may be busy at times.
     - If Copilot needs additional context to understand your query, consider rephrasing the prompt to include more details.
 
-      >**Note:** The responses from Copilot may not match the ones in the screenshot but will provide a similar response.
+    >**Note:** The responses from Copilot may not match the ones in the screenshot but will provide a similar response.
 
-      ![query01.1.png](media/labMedia/query01.1.png)
+    ![query01.1.png](media/labMedia/query01.1.png)
 
 Based on this report, we notice that the website bounce rate for Contoso is especially high amongst the Millennial customer segment. Let’s ask Copilot if it has any recommendations for improving this bounce rate based on the results and data in the report.
 
@@ -129,9 +129,9 @@ We’ll ask Copilot for suggestions based on the results and data in the report.
 
 21. Enter the following prompt in Copilot, and press the **Send** button.
 
-      ```
-      Based on the data in the page, what can be done to improve the bounce rate of millennials?
-      ```
+    ```
+    Based on the data in the page, what can be done to improve the bounce rate of millennials?
+    ```
 
 	
     ![task-new13.png](media/labMedia/task-new13.png)
