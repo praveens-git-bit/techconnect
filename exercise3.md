@@ -59,8 +59,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 11. Click on **Settings** icon and select **Power BI settings** from the 'Resources and extensions' section.
 
-      >**Note:** If the settings icon is not visible, click on the three dots next to Profile icon and select Settings.
-
+    >**Note:** If the settings icon is not visible, click on the three dots next to Profile icon and select Settings.
 
     ![task-new6.1.png](media/labMedia/task-new6.1.png)
 
