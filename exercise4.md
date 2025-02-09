@@ -183,13 +183,13 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
 
      ![task-3.1.2.png](media/labMedia/f26.png)
 
-12. Review the Summary and the click on the **Create** button to generate AutoML notebook.
+13. Review the Summary and the click on the **Create** button to generate AutoML notebook.
 
      ![task-3.1.2.png](media/labMedia/AutoMLf-22.png)
 
     >**Note:** Wait for 20 to 30 seconds for the notebook to load.
 
-13. Since the data has already been normalized lets comment out function used for featurization, click on the notebook from the left navigation and scroll down in the Notebook to the **Step 2: Featurization** section. Locate cell number 2 within this section, and comment out lines 10 and 11 by adding **#** symbol at the beginning of each line, as shown in the screenshot.
+14. Since the data has already been normalized lets comment out function used for featurization, click on the notebook from the left navigation and scroll down in the Notebook to the **Step 2: Featurization** section. Locate cell number 2 within this section, and comment out lines 10 and 11 by adding **#** symbol at the beginning of each line, as shown in the screenshot.
 
     ![task-3.1.2.png](media/labMedia/f28.png)
  
@@ -212,21 +212,21 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
 
 -->
 
-14. Click on **Run all** from the ribbon.
+15. Click on **Run all** from the ribbon.
 
     ![task-3.1.2.png](media/labMedia/f33.png)
 
     **Note:** It takes approximately 5-8 min to complete execution.
 
-15. Notice the cells as they get exexuted, **scroll down** to check next cell.
+16. Notice the cells as they get exexuted, **scroll down** to check next cell.
 
     ![task-3.1.2.png](media/labMedia/f34.png)
 
-16. **Scroll down** and notice prediction results generated from the model.
+17. **Scroll down** and notice prediction results generated from the model.
 
     ![task-3.1.2.png](media/labMedia/f61.png)
 
-17. **Scroll down** to the last cell, observe the prediction being saved in the table in OneLake.
+18. **Scroll down** to the last cell, observe the prediction being saved in the table in OneLake.
 
     ![task-3.1.2.png](media/labMedia/f36.png)
 
