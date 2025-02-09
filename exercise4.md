@@ -312,14 +312,13 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
 11. Click on **+ Add example** and enter the following question and their respective SQL queries.
 
+    ![task-5.2](media/labMedia/AIskill10.png)
+
     |Question| SQL query|
     |--------|----------|
     |who are the top 5 customers by total sales amount?|SELECT TOP 5 CONCAT(dc.FirstName, ' ', dc.LastName) AS CustomerName, SUM(fis.SalesAmount) AS TotalSpent FROM factinternetsales fis JOIN dimcustomer dc ON fis.CustomerKey = dc.CustomerKey GROUP BY CONCAT(dc.FirstName, ' ', dc.LastName) ORDER BY TotalSpent DESC;|
 
-
-![task-5.2](media/labMedia/AIskill10.png)
-
->**Note** : After entering the first example and query, click the **+ Add Example** button.
+    >**Note** : After entering the first example and query, click the **+ Add Example** button.
 
 12. Click on **close(X)** button.
 
