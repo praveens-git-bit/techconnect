@@ -369,11 +369,11 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
       **Note:** If **Allow use of fast copy connectors** checkbox is already checked click on **OK**.
 
-     ![](media/56.png)
+      ![](media/56.png)
 
 16. Click on **Add data destination**, select **Lakehouse**.
 
-    ![](media/57.png)
+     ![](media/57.png)
 
 17. Click on **Next** button.
 
@@ -383,11 +383,11 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
 19. Enter the table name as **salesdataupdated** and then click on the **Next** button.
 
-   ```BASH
-      salesdataupdated
-   ```
+  	 ```BASH
+          salesdataupdated
+  	 ```
 
-  ![](media/f55.png)
+    ![](media/f55.png)
 
 18. Click on the **Save settings** button.
 
@@ -401,7 +401,7 @@ Congrats on completing this data transformation exercise!
 
 Now let's use Copilot in Data pipeline to leverage the data transformation activities.
 
-1. Click on the **<inject key= "WorkspaceName" enableCopy="true"/>** worspace at the **left** pane of the screen, then click on the **New item** button.
+1. Click on the **<inject key= "WorkspaceName" enableCopy="false"/>** worspace at the **left** pane of the screen, then click on the **New item** button.
 
    ![task_1.4.1.png](media/labMedia/task_1.4.1.png)
 
@@ -411,27 +411,31 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
 3. Enter the name **pipeline** in the Name field and click on **Create** button.
 
+   ```BASH
+   pipeline
+   ```
+
    ![task_1.4.11.png](media/labMedia/task_1.4.11.png)
 
-4. Click on the **Copilot** icon in the top right corner of the screen.
+5. Click on the **Copilot** icon in the top right corner of the screen.
 
    ![task_1.4.12.png](media/labMedia/task_1.4.12.png)
 
-5. In the Copilot pane, click on the predefined option **Ingest data** and the following text will be populated in the prompt textbox.
+6. In the Copilot pane, click on the predefined option **Ingest data** and the following text will be populated in the prompt textbox.
 
    ```
    Get data using copy data activity
    ```
 
-6. Click on **Send** icon.
+7. Click on **Send** icon.
 
    ![task_1.4.13.png](media/labMedia/task_1.4.13.png)
 
-7. A **Copy Activity** is created and the next prompt text is loaded automatically in the text box.
+8. A **Copy Activity** is created and the next prompt text is loaded automatically in the text box.
 
    ![task_1.4.14.png](media/labMedia/task_1.4.14.png)
 
-8. Enter the following **prompt** in the textbox and click on **Send** icon.
+9. Enter the following **prompt** in the textbox and click on **Send** icon.
 
    ```Source connection of "copy0" (Copy) is lakehouse;
    Destination connection of "copy0" (Copy) is lakehouse
@@ -439,7 +443,7 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
    ![task_1.4.15.png](media/labMedia/task_1.4.15.png)
 
-9. Enter the following **prompt** in the textbox and click on **Send** icon.
+10. Enter the following **prompt** in the textbox and click on **Send** icon.
 
    ```BASH
    Table of Source connection "lakehouse" (Lakehouse) in "copy0" (Copy) is data/CampaignData/campaign-data.csv;
@@ -448,23 +452,23 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
    ![task_1.4.16.png](media/labMedia/task_1.4.16.png)
 
-10. Click on the **Copy data** activity, scroll up the **Details pane**, click on the **Source** tab and click on the **Preview data**.
+11. Click on the **Copy data** activity, scroll up the **Details pane**, click on the **Source** tab and click on the **Preview data**.
 
     ![task_1.4.17.png](media/labMedia/task_1.4.17.png)
 
-11. Review the data and then click on the **Run this pipeline** option in the Copilot pane.
+12. Review the data and then click on the **Run this pipeline** option in the Copilot pane.
 
     ![task_1.4.18.png](media/labMedia/task_1.4.18.png)
 
-12. Click on the **Save and run** button.
+13. Click on the **Save and run** button.
 
     ![task_1.4.19.png](media/labMedia/task_1.4.19.png)
 
-13. **Wait** for the pipeline run to complete successfully.
+14. **Wait** for the pipeline run to complete successfully.
 
     ![task_1.4.20.png](media/labMedia/f42.png)
 
-14. Scroll up in the Copilot window to the top and select **Summarize this pipeline** option. The following text will be populated in the prompt textbox.
+15. Scroll up in the Copilot window to the top and select **Summarize this pipeline** option. The following text will be populated in the prompt textbox.
 
 ### Summarize this pipeline
 
