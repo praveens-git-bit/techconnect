@@ -200,26 +200,26 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
 6.  Once the notebook is created, click on **+Code** and paste the following **code** in the cell and **run** the cell
 
-   ![task-wb8S.png](media/f52.png)
+    ![task-wb8S.png](media/f52.png)
 
-   ```BASH
-   import os
-   # List all CSV files in the 'litwaredata' folder
-   file_path = '/lakehouse/default/Files/litwaredata/'
-   csv_files = [file for file in os.listdir(file_path) if file.endswith('.csv')]
-   df_CustomerChurnData= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[0])
-   df_dimcustomer= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[1])
-   df_dimdate= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[2])
-   df_dimproduct= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[3])
-   df_dimreseller= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[4])
-   df_factinternetsales= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[5])
-   df_factresellersales= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[6])
-   df_website_bounce_rate= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[7])
-   ```
+      ```BASH
+      import os
+      # List all CSV files in the 'litwaredata' folder
+      file_path = '/lakehouse/default/Files/litwaredata/'
+      csv_files = [file for file in os.listdir(file_path) if file.endswith('.csv')]
+      df_CustomerChurnData= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[0])
+      df_dimcustomer= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[1])
+      df_dimdate= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[2])
+      df_dimproduct= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[3])
+      df_dimreseller= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[4])
+      df_factinternetsales= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[5])
+      df_factresellersales= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[6])
+      df_website_bounce_rate= spark.read.format("csv").option("header","true").load('Files/litwaredata/'+csv_files[7])
+      ```
 
-   > **Note:** Once the Spark code execution is completed, the output will appear as shown in the screenshot.
+     > **Note:** Once the Spark code execution is completed, the output will appear as shown in the screenshot.
 
-   ![task-wb8S.png](media/f53.png)
+     ![task-wb8S.png](media/f53.png)
 
 7. In the notebook ribbon **Home** tab, use the **Data Wrangler** dropdown and select any one of the dataframe.
 
@@ -389,11 +389,11 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
     ![](media/f55.png)
 
-18. Click on the **Save settings** button.
+20. Click on the **Save settings** button.
 
     ![](media/60.png)
 
-19. Click on the **Publish** button.
+21. Click on the **Publish** button.
 
     ![](media/61.png)
 
@@ -417,25 +417,25 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
    ![task_1.4.11.png](media/labMedia/task_1.4.11.png)
 
-5. Click on the **Copilot** icon in the top right corner of the screen.
+4. Click on the **Copilot** icon in the top right corner of the screen.
 
    ![task_1.4.12.png](media/labMedia/task_1.4.12.png)
 
-6. In the Copilot pane, click on the predefined option **Ingest data** and the following text will be populated in the prompt textbox.
+5. In the Copilot pane, click on the predefined option **Ingest data** and the following text will be populated in the prompt textbox.
 
    ```
    Get data using copy data activity
    ```
 
-7. Click on **Send** icon.
+6. Click on **Send** icon.
 
    ![task_1.4.13.png](media/labMedia/task_1.4.13.png)
 
-8. A **Copy Activity** is created and the next prompt text is loaded automatically in the text box.
+7. A **Copy Activity** is created and the next prompt text is loaded automatically in the text box.
 
    ![task_1.4.14.png](media/labMedia/task_1.4.14.png)
 
-9. Enter the following **prompt** in the textbox and click on **Send** icon.
+8. Enter the following **prompt** in the textbox and click on **Send** icon.
 
    ```Source connection of "copy0" (Copy) is lakehouse;
    Destination connection of "copy0" (Copy) is lakehouse
@@ -443,44 +443,44 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
    ![task_1.4.15.png](media/labMedia/task_1.4.15.png)
 
-10. Enter the following **prompt** in the textbox and click on **Send** icon.
+9. Enter the following **prompt** in the textbox and click on **Send** icon.
 
-   ```BASH
-   Table of Source connection "lakehouse" (Lakehouse) in "copy0" (Copy) is data/CampaignData/campaign-data.csv;
-   table of Destination connection "lakehouse" (Lakehouse) in "copy0" (Copy) is dbo.CampaignData
-   ```
+      ```BASH
+      Table of Source connection "lakehouse" (Lakehouse) in "copy0" (Copy) is data/CampaignData/campaign-data.csv;
+      table of Destination connection "lakehouse" (Lakehouse) in "copy0" (Copy) is dbo.CampaignData
+      ```
 
-   ![task_1.4.16.png](media/labMedia/task_1.4.16.png)
+      ![task_1.4.16.png](media/labMedia/task_1.4.16.png)
 
-   >**Note:** If you see the message "Type / to show all connections," click on the **Source** tab, then select **lakehouse** and set the **Root Folder** to **Files**, and then run the above prompt again.
+      >**Note:** If you see the message "Type / to show all connections," click on the **Source** tab, then select **lakehouse** and set the **Root Folder** to **Files**, and then run the above prompt again.
 
-   ![task_1.4.16.png](media/labMedia/pipelineerror.png)
+    ![task_1.4.16.png](media/labMedia/pipelineerror.png)
 
-11. Click on the **Copy data** activity, scroll up the **Details pane**, click on the **Source** tab and click on the **Preview data**.
+10. Click on the **Copy data** activity, scroll up the **Details pane**, click on the **Source** tab and click on the **Preview data**.
 
     ![task_1.4.17.png](media/labMedia/task_1.4.17.png)
 
-12. Review the data and then click on the **Run this pipeline** option in the Copilot pane.
+11. Review the data and then click on the **Run this pipeline** option in the Copilot pane.
 
     ![task_1.4.18.png](media/labMedia/task_1.4.18.png)
 
-13. Click on the **Save and run** button.
+12. Click on the **Save and run** button.
 
     ![task_1.4.19.png](media/labMedia/task_1.4.19.png)
 
-14. **Wait** for the pipeline run to complete successfully.
+13. **Wait** for the pipeline run to complete successfully.
 
     ![task_1.4.20.png](media/labMedia/f42.png)
 
-15. Scroll up in the Copilot window to the top and select **Summarize this pipeline** option. The following text will be populated in the prompt textbox.
+14. Scroll up in the Copilot window to the top and select **Summarize this pipeline** option. The following text will be populated in the prompt textbox.
 
 ### Summarize this pipeline
 
-11. Click on **Send** icon.
+15. Click on **Send** icon.
 
     ![task_1.4.21.png](media/labMedia/task_1.4.21.png)
 
-12. Scroll down to review the summarization generated by Copilot.
+16. Scroll down to review the summarization generated by Copilot.
 
     ![task_1.4.22.png](media/labMedia/task_1.4.22.png)
 

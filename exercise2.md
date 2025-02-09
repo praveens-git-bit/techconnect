@@ -8,51 +8,51 @@ Delta Live Tables (DLT) allow you to build and manage reliable data pipelines th
 
 1. Go back to the browser tab of **Resource Group** .
 
-Search for the Azure Databricks in the Resource group search field and click on **adb-techconnect....**.
+    Search for the Azure Databricks in the Resource group search field and click on **adb-techconnect....**.
 
-![databrickssignin.png](media/labMedia/databrickssearch.png)
+    ![databrickssignin.png](media/labMedia/databrickssearch.png)
 
 2. Click on the **Launch Workspace**.
 
     ![databrickssignin.png](media/labMedia/launchdatabricks.png)
 
-**Note:** Click on the **Sign in with Microsoft Entra ID** button.
+    **Note:** Click on the **Sign in with Microsoft Entra ID** button.
 
-![databrickssignin.png](media/labMedia/databrickssignin.png)
+    ![databrickssignin.png](media/labMedia/databrickssignin.png)
 
 3. Scroll down in the left navigation pane and click on **Delta Live Tables**.
 
-![task-2.2.2new.png](media/labMedia/task-2.2.2new.png)
+    ![task-2.2.2new.png](media/labMedia/task-2.2.2new.png)
 
 4. Click on the **Create pipeline** button.
 
-![task-2.2.3.1new.png](media/labMedia/task-2.2.3.1new.png)
+    ![task-2.2.3.1new.png](media/labMedia/task-2.2.3.1new.png)
 
 5. Enter the name of the pipeline as **DLT_Pipeline** , scroll down to **Paths** and click on the **file icon** to browse the notebook.
 
-```BASH
-DLT_Pipeline
-```
+    ```BASH
+    DLT_Pipeline
+    ```
 
-![task-2.2.3new.png](media/labMedia/task-2.2.3new.png)
+    ![task-2.2.3new.png](media/labMedia/task-2.2.3new.png)
 
 6. Click on **Shared**, click on **Analytics with ADB**, click on the **01 DLT Notebook** and then click on the **Select** button.
 
-![task-2.2.4new.png](media/labMedia/f13.png)
+   ![task-2.2.4new.png](media/labMedia/f13.png)
 
 7. Type **dbo** in **Default schema** feild and click on the **Create** button.
 
-![task-2.2.5new.png](media/labMedia/f45.png)
+   ![task-2.2.5new.png](media/labMedia/f45.png)
 
 8. Click on the **Start** button.
 
-![task-2.2.5new.png](media/labMedia/f14.png)
+    ![task-2.2.5new.png](media/labMedia/f14.png)
 
->**Note**: The pipeline will take 5-7 minutes to complete. In the meantime, you can move on to the next section and return to this one afterward.
+    >**Note**: The pipeline will take 5-7 minutes to complete. In the meantime, you can move on to the next section and return to this one afterward.
 
 8. Once the execution is completed, we will see a result similar to the one in the following screenshot.
 
-![task-2.2.7.png](media/labMedia/task-2.2.7.png)
+     ![task-2.2.7.png](media/labMedia/task-2.2.7.png)
 
 This beautiful lineage view showing the Medallion Architecture is a data design pattern commonly used in Databricks to organize and optimize data processing workflows in a lakehouse architecture. It structures data into three logical layers—Bronze, Silver, and Gold—ensuring data quality, accessibility, and scalability for analytics and machine learning.
 
@@ -82,15 +82,15 @@ Mirroring the Azure Databricks Catalog structure in Microsoft Fabric allows seam
 
 2. Click on the **<inject key= "WorkspaceName" enableCopy="true"/>** and select **New item** from menu bar.
 
-![Task-2.3_1.png](media/labMedia/Task-2.3_1.png)
+    ![Task-2.3_1.png](media/labMedia/Task-2.3_1.png)
 
 3. In the **New item** window, scroll down and click on **Microsoft Azure Databricks catalog (preview)**.
 
-![Task-2.3_2.png](media/labMedia/Task-2.3_2.png)
+   ![Task-2.3_2.png](media/labMedia/Task-2.3_2.png)
 
 4. When the **New source** window pops up, click on the **Create new connection** radio button.
 
-![Task-2.3_3.png](media/labMedia/Task-2.3_3.png)
+   ![Task-2.3_3.png](media/labMedia/Task-2.3_3.png)
 
 5. In the URL field enter **<inject key= "databricksurl" enableCopy="true"/>**
 
@@ -102,31 +102,31 @@ Mirroring the Azure Databricks Catalog structure in Microsoft Fabric allows seam
 
 7. click on the **Connect** button.
 
-![Task-2.3_7.png](media/labMedia/Task-2.3_7.png)
+   ![Task-2.3_7.png](media/labMedia/Task-2.3_7.png)
 
 8. Click on the **Next** button.
 
-![Task-2.3_7.1.png](media/labMedia/Task-2.3_7.1.png)
+   ![Task-2.3_7.1.png](media/labMedia/Task-2.3_7.1.png)
 
 9. In the **Choose data** screen, select the Catalog name as **litware_unity_catalog** from the dropdown box, and select the **rag** schema if not selected, then select the checkbox **Automatically sync future catalog changes for the selected schema** (to mirror future tables) if not ticked and click on **Next** button.
 
-![Task-2.3_8.png](media/labMedia/Task-2.3_8.png)
+   ![Task-2.3_8.png](media/labMedia/Task-2.3_8.png)
 
 10. In the **Artifact name** field enter **litware_unity_catalog** for your mirrored Databricks Catalog and click on the **Create** button.
 
-```BASH
-litware_unity_catalog
-```
+    ```BASH
+    litware_unity_catalog
+    ```
 
-![Task-2.3_9.png](media/labMedia/Task-2.3_9.png)
+    ![Task-2.3_9.png](media/labMedia/Task-2.3_9.png)
 
 11. Click on the **Monitor catalog** button to track the mirroring **Status** and then close it.
 
-![Task-2.3_10.1.png](media/labMedia/Task-2.3_10.1.png)
+    ![Task-2.3_10.1.png](media/labMedia/Task-2.3_10.1.png)
 
 12. Click on the **View SQL endpoint** button. You can also select the tables to preview data.
 
-![Task-2.3_10.png](media/labMedia/Task-2.3_10.png)
+    ![Task-2.3_10.png](media/labMedia/Task-2.3_10.png)
 
 <!--
 

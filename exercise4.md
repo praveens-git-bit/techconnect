@@ -137,15 +137,15 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
 
 2. Click on **New item**, scroll down and select **Notebook**.
 
-  ![task-3.1.2.png](media/labMedia/AutoMLf-19.png)
+   ![task-3.1.2.png](media/labMedia/AutoMLf-19.png)
 
 3. Click on the **notebook name** at the top corner and enter **Build ML models and experiments using AutoML** in the Notebook **Name** feild. 
 
     ```BASH
-        Build ML models and experiments using AutoML
+    Build ML models and experiments using AutoML
     ```
 
-![task-3.1.2.png](media/labMedia/AutoMLf-20.png)
+   ![task-3.1.2.png](media/labMedia/AutoMLf-20.png)
 
 4. Click on the **+ Data Sources** button and then select **Lakehouses**
 
@@ -247,11 +247,11 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
 3. In the Name field as enter **Contoso-Assistant** 
 
- ```BASH
-  Contoso-Assistant
- ```
+    ```BASH
+    Contoso-Assistant
+    ```
 
-   ![task-5.2](media/labMedia/AIskill3.png)
+    ![task-5.2](media/labMedia/AIskill3.png)
 
 4. Click on **lakehouse** and then click on the **Confirm** button.
 

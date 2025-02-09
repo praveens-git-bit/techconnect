@@ -19,13 +19,13 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
 4. Click on the **lakehouse**.
 
->**Note:** There are 3 options for lakehouse, namely Lakehouse, Semantic model (Default) and SQL endpoint. Make sure you select the **Lakehouse** option.
+    >**Note:** There are 3 options for lakehouse, namely Lakehouse, Semantic model (Default) and SQL endpoint. Make sure you select the **Lakehouse** option.
 
-![task-wb11.png](media/labMedia/task-wb11.png)
+    ![task-wb11.png](media/labMedia/task-wb11.png)
 
 5. Click on the **New semantic model** button. 
 
-![task-new4.png](media/labMedia/task-new4.png)
+   ![task-new4.png](media/labMedia/task-new4.png)
 
 6. In the **Direct Lake semantic model name** field, enter **website_bounce_rate_model**.
 
@@ -33,7 +33,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
    website_bounce_rate_model
    ```
 
-8. Select workspace as **<inject key= "WorkspaceName" enableCopy="true"/>** and click on **expand icon** next to **dbo** checkbox.
+7. Select workspace as **<inject key= "WorkspaceName" enableCopy="true"/>** and click on **expand icon** next to **dbo** checkbox.
 
    ![task-new5.png](media/labMedia/task-new5.png)
 
@@ -57,25 +57,25 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
     ![task-new7.png](media/labMedia/f58.png)
 
-11. Click on **Settings** icon and select **Power BI settings** from the 'Resources and extensions' section.
+13. Click on **Settings** icon and select **Power BI settings** from the 'Resources and extensions' section.
 
     >**Note:** If the settings icon is not visible, click on the three dots next to Profile icon and select Settings.
 
     ![task-new6.1.png](media/labMedia/task-new6.1.png)
 
-12. Select **Semantic models** tab and select your Semantic model.
+14. Select **Semantic models** tab and select your Semantic model.
 
     ![task-new6.2.png](media/labMedia/task-new6.2.png)
 
-13. Scroll down to **Q&A** section and expand it, then select **Turn on Q&A to ask natural language questions about your data** checkbox, and click on **Apply**.
+15. Scroll down to **Q&A** section and expand it, then select **Turn on Q&A to ask natural language questions about your data** checkbox, and click on **Apply**.
 
     ![task-new6.3.png](media/labMedia/task-new6.3.png)
 
-14. Click on **Untitled report** from the left pane.
+16. Click on **Untitled report** from the left pane.
 
     ![task-new6.3.png](media/labMedia/qna1.png)
 
-15. Click on the **Copilot** icon and collapse the other panes named **Filters**, **Visualizations** and **Data**.
+17. Click on the **Copilot** icon and collapse the other panes named **Filters**, **Visualizations** and **Data**.
 
     ![task-new6.4.png](media/labMedia/task-new6.4.png)
 
@@ -83,17 +83,17 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
     ![coplitclose.png](media/labMedia/coplitclose.png)
 
-16. Enable the **Preview** button and click on the **Get started** button.
+18. Enable the **Preview** button and click on the **Get started** button.
 
     ![task-new6.5.png](media/labMedia/task-new6.5.png)
 
     You will now see how easy it is for the data analyst to create compelling Power BI reports and get deep insights with literally no hands-on coding!
 	
-17. Click on the **Prompt Guide** button.
+19. Click on the **Prompt Guide** button.
 
     ![promptguide.png](media/labMedia/promptguide.png)  
 
-18. Select the option **What's in my data?**
+20. Select the option **What's in my data?**
 
     > **Note:** If you don't see the 'What's in my data?' option, click in the **Copilot chatbox** field, enter the following prompt, and click the **Send** button: : 
 
@@ -103,7 +103,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
     ![promptguide2.1.png](media/labMedia/promptguide2.1.png)
 
-19. Click on the Copilot chat box field and enter the prompt below.
+21. Click on the Copilot chat box field and enter the prompt below.
 
       ```
       Create a report Bounce Rate analysis, to show the correlation between customer sentiment, particularly among millennials and Gen Z, unsuccessful product searches across different devices, and the website's bounce rate by customer generations.
@@ -111,7 +111,7 @@ Based on all the gathered data, Wendy is expected to create Power BI reports for
 
     >**Note:** Wait for the prompt to populate.
 
-20. Click on the **Send** button and wait for the results to load. 
+22. Click on the **Send** button and wait for the results to load. 
 
     ![query01.png](media/labMedia/query01.png)
 	
@@ -127,7 +127,7 @@ Based on this report, we notice that the website bounce rate for Contoso is espe
 
 We’ll ask Copilot for suggestions based on the results and data in the report. 
 
-21. Enter the following prompt in Copilot, and press the **Send** button.
+23. Enter the following prompt in Copilot, and press the **Send** button.
 
     ```
     Based on the data in the page, what can be done to improve the bounce rate of millennials?
@@ -136,21 +136,21 @@ We’ll ask Copilot for suggestions based on the results and data in the report.
 	
     ![task-new13.png](media/labMedia/task-new13.png)
 	
-22. Look at the suggestions Copilot provided. Copilot creates the desired Power BI report and even goes a step further to give powerful insights. Wendy realizes that for the website bounce rate to improve, Contoso needs to transform their mobile website experience for millennials. This helps them reduce their millennial related customer churn too! Now, what if Contoso’s leadership team needed a quick summary of this entire report? **Smart Narrative** to the rescue! 
+24. Look at the suggestions Copilot provided. Copilot creates the desired Power BI report and even goes a step further to give powerful insights. Wendy realizes that for the website bounce rate to improve, Contoso needs to transform their mobile website experience for millennials. This helps them reduce their millennial related customer churn too! Now, what if Contoso’s leadership team needed a quick summary of this entire report? **Smart Narrative** to the rescue! 
 	
     ![task-new14.png](media/labMedia/task-new14.png)
 	
-23. Expand the **Visualizations** pane and select the **Narratives** visual. 
+25. Expand the **Visualizations** pane and select the **Narratives** visual. 
 
     ![visualizations.png](media/labMedia/visualizations.png)
 
-24. Click on the **Copilot (preview)** button within the visual.
+26. Click on the **Copilot (preview)** button within the visual.
 
     ![open-narrative.png](media/labMedia/open-narrative.png)
 	
-25. Select **Give an executive summary**. 
+27. Select **Give an executive summary**. 
 
-26. Click on the **Update** button and observe the generated summary. See how easy it was to get an executive summary with absolutely no IT resource dependency!
+28. nerated summary. See how easy it was to get an executive summary with absolutely no IT resource dependency!
  
     >**Note:** If you don't see 'Give an executive summary' option, click on the **Copilot narrative** chat box field, enter the prompt below, and click on **Update** :
 
@@ -160,11 +160,11 @@ We’ll ask Copilot for suggestions based on the results and data in the report.
 
     ![task-new16.png](media/labMedia/task-new16.png)
 
-30. Expand the **narrative** from the corner to get a better readable view of the result.
+29. Expand the **narrative** from the corner to get a better readable view of the result.
 
     ![expand-arrow.png](media/labMedia/expand-arrow.png)
 
-31. Click on the **Close** button in the pop-up window.
+30. Click on the **Close** button in the pop-up window.
 
     ![close-copilot.png](media/labMedia/close-copilot.png)
 	

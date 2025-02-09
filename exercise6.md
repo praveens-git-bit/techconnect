@@ -73,7 +73,7 @@ This means Contoso’s marketing data from SQL database is accessed seamlessly i
 
    ![Task-6.2_1.png](media/labMedia/Task-6.2_1.png)
 
-2. Click on **Refresh** button, expand the **dbo** and you can select the mirrored tables to see data preview.  Now, click on **New SQL query** button from the menu bar.
+2. Click on **Refresh** button, expand the Schemas and  then **dbo** and you can select the mirrored tables to see data preview.  Now, click on **New SQL query** button from the menu bar.
 
    >**Note:** If the tables are not visible, please wait for a couple of minutes and then click the **Refresh** button again.
    
