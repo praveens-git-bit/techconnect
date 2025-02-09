@@ -360,26 +360,28 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
 13. Right click on the **Sales_data csv** under **Queries** and then select **Require fast copy**.
 
+    >**Note:** If the **popup** does not appear, skip Step 14 and continue with Step 15.
+
     ![task_1.4.7.png](media/labMedia/task_1.4.7.png)
 
 
-14. Click on **Options**, scroll down to select **Scale** and tick **Allow use of fast copy connectors** checkbox then click on **OK**.
+15. Click on **Options**, scroll down to select **Scale** and tick **Allow use of fast copy connectors** checkbox then click on **OK**.
 
       **Note:** If **Allow use of fast copy connectors** checkbox is already checked click on **OK**.
 
      ![](media/56.png)
 
-15. Click on **Add data destination**, select **Lakehouse**.
+16. Click on **Add data destination**, select **Lakehouse**.
 
     ![](media/57.png)
 
-16. Click on **Next** button.
+17. Click on **Next** button.
 
     ![](media/58.png)
 
-17. Expand the workspace **<inject key= "WorkspaceName" enableCopy="true"/>**, and select **lakehouse**.
+18. Expand the workspace **<inject key= "WorkspaceName" enableCopy="true"/>**, and select **lakehouse**.
 
-18. Enter the table name as **salesdataupdated** and then click on the **Next** button.
+19. Enter the table name as **salesdataupdated** and then click on the **Next** button.
 
    ```BASH
       salesdataupdated
