@@ -55,7 +55,7 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
    ![eventhouse13.png](media/labMedia/eventhouse13.png)
 
-10. Enter the value for the **Event Hub namespace** as <inject key= "eventhubNamespace" enableCopy="true"/> and enter the **Event Hub** value as thermostat.
+10. Enter the value for the **Event Hub namespace** as **<inject key= "eventhubNamespace" enableCopy="true"/>** and enter the **Event Hub** value as thermostat.
 
    ```BASH
    thermostat
