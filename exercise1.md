@@ -452,6 +452,10 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
    ![task_1.4.16.png](media/labMedia/task_1.4.16.png)
 
+   >**Note:** If you see the message "Type / to show all connections," click on the **Source** tab, then select **lakehouse** and set the **Root Folder** to **Files**.
+
+   ![task_1.4.16.png](media/labMedia/task_1.4.16.png)
+
 11. Click on the **Copy data** activity, scroll up the **Details pane**, click on the **Source** tab and click on the **Preview data**.
 
     ![task_1.4.17.png](media/labMedia/task_1.4.17.png)
