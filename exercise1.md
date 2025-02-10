@@ -375,18 +375,15 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
      ![](media/57.png)
 
-
      > **Note** : If the **Add data destination** option is not visible, click on Query and then select **Add data destination**.
 
 16. Click on **Next** button.
 
-17. Click on **Next** button.
-
     ![](media/58.png)
 
-18. Expand the workspace **<inject key= "WorkspaceName" enableCopy="false"/>**, and select **lakehouse**.
+17. Expand the workspace **<inject key= "WorkspaceName" enableCopy="false"/>**, and select **lakehouse**.
 
-19. Enter the table name as **salesdataupdated** and then click on the **Next** button.
+18. Enter the table name as **salesdataupdated** and then click on the **Next** button.
 
   	 ```BASH
           salesdataupdated
@@ -394,11 +391,11 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
     ![](media/f55.png)
 
-20. Click on the **Save settings** button.
+19. Click on the **Save settings** button.
 
     ![](media/60.png)
 
-21. Click on the **Publish** button.
+20. Click on the **Publish** button.
 
     ![](media/61.png)
 
