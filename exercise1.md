@@ -46,7 +46,7 @@ In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's 
 
    ![works-apply.png](media/labMedia/workspace01.png)
 
-5. Ensure **Fabric capacity** is enabled, verify that **techconnectnorthcentralus - North Central US** is selected under Capacity, and then click **Apply**.
+5. Ensure **Fabric capacity** is enabled, verify that **techconnectnorthcentralus - North Central US** is selected under **Capacity**, and then click **Apply**.
 
    ![works-apply.png](media/labMedia/workspace02.png)
 
