@@ -83,6 +83,7 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 17. Run the **first cell** of the notebook to install the copilot packages.
 
     >**Note:** This may take a while to execute, please wait till this loads completely.
+    >**Note:** If you encounter an error, you can ignore it and proceed to the next step.
 
     ![task-3.1.2.png](media/labMedia/exercise5_1.7.png)
 
