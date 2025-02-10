@@ -150,7 +150,7 @@ We’ll ask Copilot for suggestions based on the results and data in the report.
 	
 27. Select **Give an executive summary**. 
 
-28. nerated summary. See how easy it was to get an executive summary with absolutely no IT resource dependency!
+28. generated summary. See how easy it was to get an executive summary with absolutely no IT resource dependency!
  
     >**Note:** If you don't see 'Give an executive summary' option, click on the **Copilot narrative** chat box field, enter the prompt below, and click on **Update** :
 
