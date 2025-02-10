@@ -87,7 +87,7 @@ Now, let's see how each department can easily create a Lakehouse in the Contoso 
 
    ![](media/image%20(5).png) -->
 
-1. Click on the **three dots (ellipsis)** and click on Create below the workspace.
+1. Click on the **three dots (ellipsis)** and click on **Create** below the workspace.
 
     ![](media/labMedia/f2.png)
     
@@ -198,7 +198,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
    ![task-wb8S.png](media/labMedia/64.7.png)
 
-6.  Once the notebook is created, click on **+Code** and paste the following **code** in the cell and **run** the cell
+6.  Once the notebook is created, Hover over the cell and click on **+ Code** and paste the following **code** in the cell and **run** the cell
 
     ![task-wb8S.png](media/f52.png)
 
