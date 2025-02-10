@@ -439,7 +439,8 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
 8. Enter the following **prompt** in the textbox and click on **Send** icon.
 
-   ```Source connection of "copy0" (Copy) is lakehouse;
+   ```
+   Source connection of "copy0" (Copy) is lakehouse;
    Destination connection of "copy0" (Copy) is lakehouse
    ```
 
