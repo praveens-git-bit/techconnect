@@ -108,11 +108,11 @@ Mirroring the Azure Databricks Catalog structure in Microsoft Fabric allows seam
 
    ![Task-2.3_7.1.png](media/labMedia/Task-2.3_7.1.png)
 
-9. In the **Choose data** screen, select the Catalog name as **litware_unity_catalog** from the dropdown box, and select the **rag** schema if not selected, then select the checkbox **Automatically sync future catalog changes for the selected schema** (to mirror future tables) if not ticked and click on **Next** button.
+9. In the **Choose data** screen, select the Catalog name as **litware_unity_catalog** from the dropdown box, and ensure **default** and **rag** schema is selected, then select the checkbox **Automatically sync future catalog changes for the selected schema** (to mirror future tables) if not ticked and click on **Next** button.
 
-   ![Task-2.3_8.png](media/labMedia/Task-2.3_8.png)
+     ![Task-2.3_8.png](media/labMedia/Task-2.3_8u.png)
 
-10. In the **Artifact name** field enter **litware_unity_catalog** for your mirrored Databricks Catalog and click on the **Create** button.
+10. In the **Name** field enter **litware_unity_catalog** for your mirrored Databricks Catalog and click on the **Create** button.
 
     ```BASH
     litware_unity_catalog

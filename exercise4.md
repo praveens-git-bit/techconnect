@@ -25,11 +25,13 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
    ![task-3.1.2.png](media/labMedia/f16.png)
 
+   **Note:** If the Import option is not visible, click the **three dots (ellipsis)** button and select Import.
+
 3. Click on the **Upload** button.
 
    ![task-3.1.2.png](media/labMedia/exercise5_1.3.1.png)
 
-4. Browse to the fabricnotebooks folder in your VM  by following the path C:\LabFiles\techconnect\artifacts\fabricnotebooks and then select **Build ML models and experiments using Copilot for Data Science in Microsoft Fabric** notebook.
+4. Browse to the fabricnotebooks folder in your VM  by following the path `C:\LabFiles\techconnect\artifacts\fabricnotebooks` and then select **Build ML models and experiments using Copilot for Data Science in Microsoft Fabric** notebook.
 
 5. Click on the **Open** button.
 
@@ -79,6 +81,8 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 16. Click on the **Copilot** button and then click on the **Get Started** button.
 
     ![task-3.1.2.png](media/labMedia/exercise5_1.6.png)
+
+     **Note:** If the **Copilot** option is not visible, click the **three dots (ellipsis)** button and select Copilot.
 
 17. Run the **first cell** of the notebook to install the copilot packages.
 
@@ -163,6 +167,10 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
 7. Click on **New AutoML Run** icon.
 
    ![task-3.1.2.png](media/labMedia/AutoMLf-21.png)
+
+    **Note :** If the **New AutoML Run** option is not visible, click the **three dots (ellipsis)** button and select **New AutoML Run**.
+
+     ![task-wb8S.png](media/labMedia/u60.png)
 
 8. Click on **lakehouse** and then click on the **Next** button.
 

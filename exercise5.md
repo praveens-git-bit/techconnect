@@ -34,6 +34,8 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
    ![eventhouse3.png](media/labMedia/f46.png)
 
+   **Note :** If you have 10 items in the left navigation, you won't be able to create an Eventstream. Remove any unnecessary items and then proceed to create the Eventstream.
+
 
 5. Enter the name as **RealtimeDataTo-KQL-DB** and click on the **Create** button.
 

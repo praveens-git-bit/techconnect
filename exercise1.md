@@ -142,11 +142,11 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 6. Copy the **Data Lake Storage endpoint**: **<inject key= "storageEndpoint" enableCopy="true"/>** and paste it into the **URL** field.
 
-   > **Note** : If you're already **signed in**, you can skip steps 8 and 9.
-
 7. Select **Organization account** in the **Authentication Kind**, and then click on **Sign in**.
 
    ![shortcut111.png](media/labMedia/task-1.3-ext-shortcut-111.png)
+
+   > **Note** : If you're already **signed in**, you can skip steps 8 and 9.
 
 8. Click on your ID to complete the Sign in.
 
@@ -300,6 +300,10 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
       ![getdataSs.png](media/labMedia/getdataSs.png)
 
+   **Note:** If the **Get data** option is not visible, click **New query** and then select **Get data**.
+   
+    ![getdataSs.png](media/labMedia/getdatau.png)
+
 4. In the pop-up window, scroll down to **OneLake catalog** and click on **lakehouse**.
 
    >Note: It may take some time to appear in **Recent**. You can try finding it under **Recommended** or **OneLake** in the left navigation panel.
@@ -375,7 +379,9 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
      ![](media/57.png)
 
-     > **Note** : If the **Add data destination** option is not visible, click on Query and then select **Add data destination**.
+     > **Note** : If the **Add data destination** option is not visible, click on **Query** and then select **Add data destination**.
+
+     ![](media/u58.png)
 
 16. Click on **Next** button.
 
