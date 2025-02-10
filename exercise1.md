@@ -376,7 +376,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
      ![](media/57.png)
 
 
-     **Note** : If the **Add data destination** option is not visible, click on Query and then select **Add data destination**.
+     > **Note** : If the **Add data destination** option is not visible, click on Query and then select **Add data destination**.
 
 16. Click on **Next** button.
 
