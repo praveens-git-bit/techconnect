@@ -54,7 +54,7 @@ Litware had a lot of their marketing data in the Azure SQL DB, so Contoso used D
 
     ![Task-6.1_9.1.png](media/labMedia/Task-6.1_9.1.png)
 
-11. Wait until the **Rows replicated** statistics are displayed. If not refresh the **Monitor replication** tab as shown in the  following screenshot. Now, Azure SQL DB has been successfully mirrored.
+10. Wait until the **Rows replicated** statistics are displayed. If not refresh the **Monitor replication** tab as shown in the  following screenshot. Now, Azure SQL DB has been successfully mirrored.
 
     >**Note:** If **rows replicated** is blank, refresh the page using **Ctrl + Shift + R**.
 
