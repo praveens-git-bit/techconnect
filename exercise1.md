@@ -87,7 +87,7 @@ Now, let's see how each department can easily create a Lakehouse in the Contoso 
 
    ![](media/image%20(5).png) -->
 
-1. Click on the **three dots (ellipsis)** below the workspace.
+1. Click on the **three dots (ellipsis)** and click on Create below the workspace.
 
     ![](media/labMedia/f2.png)
     
