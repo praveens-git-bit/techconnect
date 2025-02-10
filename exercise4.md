@@ -113,6 +113,8 @@ Let’s see how Copilot for Notebook helps you, as a Data Engineer, quickly crea
 
 21. Click on a **+ Code** above the first cell of the notebook.
 
+    >**Note:** The new cell will be created right above the cell.
+
     ![task-3.1.2.png](media/labMedia/exercise5_1.8.1.png)
 
 22. Paste the **copied query** and run the new **cell**.
@@ -144,7 +146,9 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
 
    ![task-3.1.2.png](media/labMedia/AutoMLf-19.png)
 
-3. Click on the **notebook name** at the top corner and enter **Build ML models and experiments using AutoML** in the Notebook **Name** feild. 
+3. Click on the **notebook name** at the top corner and enter **Build ML models and experiments using AutoML** in the Notebook **Name** field. 
+
+    > **Note:** Click anywhere on the screen to save to notebook name.
 
     ```BASH
     Build ML models and experiments using AutoML
@@ -227,7 +231,7 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
 
     **Note:** It takes approximately 5-8 min to complete execution.
 
-16. Notice the cells as they get exexuted, **scroll down** to check next cell.
+16. Notice the cells as they get executed, **scroll down** to check next cell.
 
     ![task-3.1.2.png](media/labMedia/f34.png)
 
@@ -277,6 +281,8 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
    ![task-5.2](media/labMedia/items.png)
 
+    >**Note:** If the tables are not visible, hard refresh the VM browser using **Ctrl + Shft + R**.
+
 6. Click on the **Get Started** button.
 
    ![task-5.2](media/labMedia/AIskill6.png)
@@ -315,7 +321,7 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
    In addition to instructions, examples serve as another effective way to guide the AI. If you have questions that your AI skill often receives, or questions that require complex joins.
 
-10. In the example SQL queries click on **edit** icon.
+10. In the Example SQL queries click on **edit** icon.
 
     ![task-5.2](media/labMedia/AIskill9.png)
 

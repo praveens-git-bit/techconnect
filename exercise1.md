@@ -1,8 +1,8 @@
 ### Exercise 1: Data Engineering/Data Factory experience - Data ingestion from a spectrum of analytical data sources into OneLake
-
+<!--
    *Before we start executing the steps, we will open a backup Click-by-Click lab using the following hyperlink in a new tab and navigate back to the VM browser:* 
 
-   [Click-by-Click](https://regale.cloud/Microsoft/viewer/3088/modern-analytics-with-microsoft-fabric-copilot-and-azure-databricks-dream-lab-fu/index.html#/0/0)
+   [Click-by-Click](https://regale.cloud/Microsoft/viewer/3088/modern-analytics-with-microsoft-fabric-copilot-and-azure-databricks-dream-lab-fu/index.html#/0/0) -->
 
    *Now, let's trigger the Simulator App to start streaming data to EventHub (**to be used later in exercise 4**).*
 
@@ -38,13 +38,17 @@ In this exercise, you will act as the Data Engineer, Eva, to transfer Contoso's 
 
 	![task-1.1.2.png](media/labMedia/task-1.1.2.png)
 
-4. Type the name **<inject key= "WorkspaceName" enableCopy="true"/>** **validate** the available name and click **Apply**.
+4. Type the name **<inject key= "WorkspaceName" enableCopy="true"/>**, **validate** the availability of the name, and click on **Advanced**.
 
    >**Note:** Only use the workspace name provided above.
 
    >**NOTE:** If the name **<inject key= "WorkspaceName" enableCopy="false"/>** is already taken, refresh the page and check again. A workspace with that name may already be created. If so, add a different suffix until the name is available.
 
-   ![works-apply.png](media/labMedia/works-apply.png)
+   ![works-apply.png](media/labMedia/workspace01.png)
+
+5. Ensure **Fabric capacity** is enabled, verify that **techconnectnorthcentralus - North Central US** is selected under Capacity, and then click **Apply**.
+
+   ![works-apply.png](media/labMedia/workspace02.png)
 
    >**Note:** Close any pop-up that appears on the screen.
 
@@ -87,12 +91,12 @@ Now, let's see how each department can easily create a Lakehouse in the Contoso 
 
    ![](media/image%20(5).png) -->
 
-1. Click on the **three dots (ellipsis)** and click on **Create** below the workspace.
+1. Click on the **three dots (ellipsis)** below the **<inject key= "WorkspaceName" enableCopy="false"/>** workspace and click on the **Create** icon.
 
-    ![](media/labMedia/f2.png)
+   ![](media/labMedia/f2.png)
     
 
-2. In the new window, under Data Engineering, click **Lakehouse**.
+2. In the new window, under **Data Engineering**, click **Lakehouse**.
 
    ![task-wb2.png](media/labMedia/f3.png)
 
@@ -198,7 +202,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
    ![task-wb8S.png](media/labMedia/64.7.png)
 
-6.  Once the notebook is created, Hover over the cell and click on **+ Code** and paste the following **code** in the cell and **run** the cell
+6.  Once the notebook is created, **hover below** the existing cell and click on **+Code** to create a new cell in the notebook. Paste the following **code** in the cell and **run** the cell.
 
     ![task-wb8S.png](media/f52.png)
 
@@ -237,7 +241,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
    ![](media/f65.png)
 
-10. Since the data is already normalized, we will load it into Delta tables, paste the following **code** in the cell and **run** the cell.
+10. Since the data is already normalized, we will load it into Delta tables. Create a **new cell** and paste the following **code** in it and **run** the cell.
 
       ```
       import os
@@ -258,7 +262,7 @@ Now, let’s see how Data Engineer, Eva, Analyzed data by leveraging Data Wrangl
 
 11. Once the execution is successful, **stop the Spark session**.
 
-12. Click on **Lakehouse** in the left navigation pane..
+12. Click on **Lakehouse** in the left navigation pane.
 
     ![task-wb8S.png](media/labMedia/f64.png)
 
@@ -443,7 +447,7 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
    ![task_1.4.14.png](media/labMedia/task_1.4.14.png)
 
-8. Enter the following **prompt** in the textbox and click on **Send** icon.
+8. Replace the existing prompt by entering the following **prompt** in the textbox and click on **Send** icon.
 
    ```
    Source connection of "copy0" (Copy) is lakehouse;
@@ -452,7 +456,7 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
    ![task_1.4.15.png](media/labMedia/task_1.4.15.png)
 
-9. Enter the following **prompt** in the textbox and click on **Send** icon.
+9. Replace the following **prompt** in the textbox and click on **Send** icon.
 
       ```BASH
       Table of Source connection "lakehouse" (Lakehouse) in "copy0" (Copy) is data/CampaignData/campaign-data.csv;
@@ -471,7 +475,9 @@ Now let's use Copilot in Data pipeline to leverage the data transformation activ
 
 11. Review the data and then click on the **Run this pipeline** option in the Copilot pane.
 
-    ![task_1.4.18.png](media/labMedia/task_1.4.18.png)
+   ![task_1.4.18.png](media/labMedia/task_1.4.18.png)
+
+   >Close the Preview data pop-up window.
 
 12. Click on the **Save and run** button.
 

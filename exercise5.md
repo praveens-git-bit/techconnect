@@ -6,6 +6,15 @@ Imagine, it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are
 
 In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data from the event hub into the KQL Database to monitor in-store temperatures in real time.  
 
+>**Note:** You might get a pop-up like the one shown. Click on the **OK** button.
+
+![task-5.4551.png](media/labMedia/RTIEventhouse.1.png)
+
+>**Note:** Hover and close some of the open items from the left navigation pane by clicking on the close icon. Fabric doesn't support more than 10 open items.
+
+![task-5.4551.png](media/labMedia/RTIEventhouse.2.png)
+
+
 1. Select **<inject key= "WorkspaceName" enableCopy="true"/>** workspace from the left navigation pane, click on **+New item**, then scroll down to the **Store data** section, and click on **Eventhouse**.
 
    ![task-5.4551.png](media/labMedia/RTIEventhouse.png)
@@ -45,7 +54,7 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
    ![Eventst-name1.png](media/labMedia/f47.png)
 
-6. Click on **Add external source**. 
+6. Click on **Use external source**. 
 
    ![eventhouse12.png](media/labMedia/eventhouse12.png)
 
