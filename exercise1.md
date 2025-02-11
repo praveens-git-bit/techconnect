@@ -312,7 +312,7 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
 
    >Note: If the Lakehouse doesn't appear under **Recommended**, please wait for a while and then check again under both **Recommended** and **Recent**.
 
-   ![task-1.2.04.S1.png](media/labMedia/f10.png)
+     ![task-1.2.04.S1.png](media/labMedia/task1.png)
 
 5. If you see a screen similar to the following one, click on the **Next** button otherwise move to the next step.
 

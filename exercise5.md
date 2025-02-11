@@ -1,4 +1,4 @@
-### Exercise 5: Real-time Intelligence experience - Explore Streaming data using Copilot for KQL DB
+### Exercise 5: Real-time Intelligence experience - Explore Streaming data using Copilot for KQL DB (Optional)
 
 Imagine, it is 6 am on the day of Contoso's big Thanksgiving sale. Customers are flocking to their stores in large numbers. We are about to witness the very culmination of Contoso's phenomenal transformation with Microsoft Fabric and Azure Databricks. Specifically, we will see how near real-time data is used to make decisions for the next moment in Contoso's stores to ensure optimal temperatures are maintained for their customers while they shop at the big sale!
 
@@ -160,7 +160,7 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
     >**Note:** Wait for the data ingestion from EventHub to KQL DB.
 
-27. Once you see that the streaming has started, click on **Refresh** and wait for the data to preview.
+27. Once you see that the Active has started, click on **Refresh** and wait for the data to preview.
 
     ![eventhouse17.png](media/labMedia/eventhouse17.png)
 

@@ -1,4 +1,4 @@
-### Exercise 4: Explore Data Science experience in Microsoft Fabric (Optional)
+### Exercise 4: Explore Data Science experience in Microsoft Fabric 
  
 Microsoft Fabric offers Data Science experiences to empower users to complete end-to-end data science workflows for data enrichment and business insights. You can complete a wide range of activities across the entire data science process, all the way from data exploration, preparation and cleansing to experimentation, modeling, model scoring and serving predictive insights to BI reports.
 
@@ -194,7 +194,7 @@ The rest of the notebook has similar PySpark queries to explore customer churn p
 
 12. Click on the **Next**.
 
-     ![task-3.1.2.png](media/labMedia/f26.png)
+     ![task-3.1.2.png](media/labMedia/f26u.png)
 
 13. Review the Summary and the click on the **Create** button to generate AutoML notebook.
 
