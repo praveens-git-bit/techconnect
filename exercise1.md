@@ -146,11 +146,11 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 6. Copy the **Data Lake Storage endpoint**: **<inject key= "storageEndpoint" enableCopy="true"/>** and paste it into the **URL** field.
 
-7. Select **Organization account** in the **Authentication Kind**, and then click on **Sign in**.
+7. Select **Organization account** in the **Authentication Kind**, and then click on **Sign in** (If it is already signed in continue with the step 9).
+
+   >**Note**: If you're already **signed in**, you can skip steps 8.
 
    ![shortcut111.png](media/labMedia/task-1.3-ext-shortcut-111.png)
-
-   > **Note** : If you're already **signed in**, you can skip steps 8 and 9.
 
 8. Click on your ID to complete the Sign in.
 

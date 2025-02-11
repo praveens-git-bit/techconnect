@@ -128,6 +128,33 @@ Mirroring the Azure Databricks Catalog structure in Microsoft Fabric allows seam
 
     ![Task-2.3_10.png](media/labMedia/Task-2.3_10.png)
 
+13. Click on the **Refresh button**, then expand **rag**, and further expand **Tables** to view replicated tables.
+
+    ![Task-2.3_10.png](media/labMedia/f79.png)
+
+    >**Note:** If you are unable to view replicated tables, refresh the page by pressing **Ctrl + Shift + R**.
+ 
+13. Click on **New SQL Query**, then copy and paste the following **SQL query** in query editor and click on **Run** button.
+ 
+    ![Task-2.3_10.png](media/labMedia/f80.png)
+ 
+    ```BASH
+    SELECT 
+        [Campaign_Name],
+        AVG([ROI]) AS Avg_ROI,
+        SUM([Profit]) AS Total_Profit,
+        SUM([Cost]) AS Total_Cost,
+        AVG([Cost]) AS Avg_Cost
+    FROM 
+        [litware_unity_catalog].[rag].[campaigndata]
+    GROUP BY 
+        [Campaign_Name]
+    ORDER BY 
+        Avg_ROI DESC; 
+    ```
+
+
+
 <!--
 
 #### Analyze the Mirrored Azure SQL Database data using T-SQL
