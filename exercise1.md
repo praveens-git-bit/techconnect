@@ -142,19 +142,15 @@ Now, this is something exciting! This section shows how easy it is to create Sho
 
 5. In the following screen, we need to enter the connection details for the ADLS Gen2 shortcut.
 
-   ![shortcut111.png](media/labMedia/task-1.3-ext-shortcut-11.png)
+   ![shortcut111.png](media/labMedia/task-1.3-ext-shortcut-11u.png)
 
 6. Copy the **Data Lake Storage endpoint**: **<inject key= "storageEndpoint" enableCopy="true"/>** and paste it into the **URL** field.
 
-7. Select **Organization account** in the **Authentication Kind**, and then click on **Sign in** (If it is already signed in continue with the step 9).
+7. Select **Organization account** in the **Authentication Kind**, and ensure you are signed in and click on **Next**.
 
-   >**Note**: If you're already **signed in**, you can skip steps 8.
+    ![shortcut111.png](media/labMedia/task-1.3-ext-shortcut-111u.png)
 
-   ![shortcut111.png](media/labMedia/task-1.3-ext-shortcut-111.png)
 
-8. Click on your ID to complete the Sign in.
-
-   ![shortcut111.png](media/labMedia/task-1.3-signinpage.png)
 
 9. Click on **Next** button.
 

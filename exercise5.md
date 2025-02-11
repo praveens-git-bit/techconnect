@@ -160,7 +160,7 @@ In the exercise, we’ll explore how Data Engineer, Eva, ingested real-time data
 
     >**Note:** Wait for the data ingestion from EventHub to KQL DB.
 
-27. Once you see that the Active has started, click on **Refresh** and wait for the data to preview.
+27. Once the status is **Active**, click **Refresh** and wait for the data preview to load.
 
     ![eventhouse17.png](media/labMedia/eventhouse17.png)
 
