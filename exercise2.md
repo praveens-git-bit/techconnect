@@ -84,7 +84,7 @@ Mirroring the Azure Databricks Catalog structure in Microsoft Fabric allows seam
 
     ![Task-2.3_1.png](media/labMedia/Task-2.3_1.png)
 
-3. In the **New item** window, scroll down and click on **Microsoft Azure Databricks catalog (preview)**.
+3. In the **New item** window, scroll down and click on **Mirrored Azure Databricks catalog (preview)**.
 
    ![Task-2.3_2.png](media/labMedia/Task-2.3_2.png)
 
