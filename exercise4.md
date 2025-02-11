@@ -258,10 +258,10 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
     ![task-5.2](media/labMedia/f18.png)
 
-3. In the Name field as enter **Contoso-Assistant** 
+3. In the Name field as enter **Contoso-assistant** 
 
     ```BASH
-    Contoso-Assistant
+    Contoso-assistant
     ```
 
     ![task-5.2](media/labMedia/AIskill3.png)
