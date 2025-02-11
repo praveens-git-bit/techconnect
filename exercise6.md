@@ -46,7 +46,7 @@ Litware had a lot of their marketing data in the Azure SQL DB, so Contoso used D
 
    ![Task-6.1_9.png](media/labMedia/Task-6.1_9.png)
 
-9. Enter the name for your mirrored database as **Mirrored_SalesDb1** and click on the **Create mirrored database** button.
+9. Enter the name for your Destination mirrored database as **Mirrored_SalesDb1** and click on the **Create mirrored database** button.
 
     ```BASH
     Mirrored_SalesDb1
