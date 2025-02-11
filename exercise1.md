@@ -308,9 +308,9 @@ You will experience how easy it is to use Fast Copy to transform 100M rows of Li
    
     ![getdataSs.png](media/labMedia/getdatau.png)
 
-4. In the pop-up window, scroll down to **OneLake catalog** and click on **lakehouse**.
+4. In the pop-up window, navigate to **OneLake Catalog**, select **Recommended**, and then choose **Lakehouse**.
 
-   >Note: It may take some time to appear in **Recent**. You can try finding it under **Recommended** or **OneLake** in the left navigation panel.
+   >Note: If the Lakehouse doesn't appear under **Recommended**, please wait for a while and then check again under both **Recommended** and **Recent**.
 
    ![task-1.2.04.S1.png](media/labMedia/f10.png)
 

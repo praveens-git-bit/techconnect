@@ -325,9 +325,9 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
     ![task-5.2](media/labMedia/AIskill9.png)
 
-11. Click on **+ Add example** and enter the following question and their respective SQL queries.
+11. Click on **+ Add Example**, enter the provided question along with its corresponding SQL query, and then click the **Close (X)** button.
 
-    ![task-5.2](media/labMedia/AIskill10.png)
+     ![task-5.2](media/labMedia/AIskill10.png)
 
     |Question| SQL query|
     |--------|----------|
@@ -335,11 +335,8 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
     >**Note** : After entering the first example and query, click the **+ Add Example** button.
 
-12. Click on **close(X)** button.
 
-    ![task-5.2](media/labMedia/AIskill11.png)
-
-13. Type **who are the top 5 customers by total sales amount?** in the chatbox and click on **Send** button.
+12. Type **who are the top 5 customers by total sales amount?** in the chatbox and click on **Send** button.
 
     ```BASH
     who are the top 5 customers by total sales amount?
@@ -347,14 +344,14 @@ In this exercise, you’ll step into Data Analyst, Serena’s shoes and leverage
 
     ![task-5.2](media/labMedia/AIskill12.png)
 
-14. Click on **Publish**.
+13. Click on **Publish**.
 
     ![task-5.2](media/labMedia/AIskill13.png)
 
-15. In the pop-up screen click on the **Publish** button.
+14. In the pop-up screen click on the **Publish** button.
 
     ![task-5.2](media/labMedia/AIskill14.png)
 
-16. Notice that AI skill is published successfully.
+15. Notice that AI skill is published successfully.
 
     ![task-5.2](media/labMedia/AIskill15.png)

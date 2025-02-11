@@ -139,7 +139,8 @@ We’ll ask Copilot for suggestions based on the results and data in the report.
 24. Look at the suggestions Copilot provided. Copilot creates the desired Power BI report and even goes a step further to give powerful insights. Wendy realizes that for the website bounce rate to improve, Contoso needs to transform their mobile website experience for millennials. This helps them reduce their millennial related customer churn too! Now, what if Contoso’s leadership team needed a quick summary of this entire report? **Smart Narrative** to the rescue! 
 	
     ![task-new14.png](media/labMedia/task-new14.png)
-	
+
+<!--	
 25. Expand the **Visualizations** pane and select the **Narratives** visual. 
 
     ![visualizations.png](media/labMedia/visualizations.png)
@@ -169,3 +170,4 @@ We’ll ask Copilot for suggestions based on the results and data in the report.
     ![close-copilot.png](media/labMedia/close-copilot.png)
 	
 The summary could also be generated in another language, if specified. Additionally, the summary updates if you filter the report on any visual.
+-->
